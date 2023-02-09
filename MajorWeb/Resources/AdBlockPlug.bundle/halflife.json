@@ -1,0 +1,2442 @@
+[
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?jump\\.bdimg\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=adide_platform], [id=media_item], [id=spage_game_tab_wrapper], [id=spage_liveshow_slide], [id=plat_act_wrapper], .ihome_aside_section[j-mygift], .ihome_game_group, .member_rank, .userinfo_scores, .fMember_cnt, .split, .u_app, .u_appcenterEntrance, .u_bdhome, .u_blue, .u_game, .u_grab_treasure, .u_joinvip, .u_split, .u_member, .u_menu_tbmall, .u_mytbmall, .u_xiu8, .u_wallet, [id=local_board], [id=j_navtab_wanle], [id=j_navtab_game], .gift-goin, .icon_group, .j_tbnav_tab_a[stats-data^=\"fr=tb0_forum&st_mod=frs&st_value=tabgroup\"], .star_nav_ico_activity, .star_nav_ico_deal, .star_nav_ico_group, .star_nav_ico_tuan, [id=aside_ad], [id=aside_ad_wrapper], [id=novel-ranking], [id=tieba-notice].region_bright, .app_download_box, .app_forum_rank_float, .aside_region.celebrity, .fansparty-wrap, .guess-sidebar-container, .nani_app_download_box, .platform_aside_tieba_partner, .profile_bottom, .region_bright.celebrity, .tbui_fbar_bazhu, .tbui_fbar_props, .tieba_notice, .user_score, [id=top_activity], .achievement_medal_wrapper, .card_userinfo_honor, .d_icons, .d_nameplate, .dialogJ.game_player_auth_dialog, .dialogJ.tieba-sign-card, .fav-wrapper, .icon_author, .icon_wrap, .icon_replyer, .icon_tbworld, .j-post-send-gift, .p_mall_tail, .pre_icon_wrap, .save_face_bg, .sofa_front_list_wrap, .share_btn_wrapper, .thread_recommend_ps, .user_card_vip_tips, [id=bdshare], [id=guide_fc], [id=xiu8_follow_warn], .add_guessing_btn, .edui-btn-medal, .edui-btn-paypost, .j_surveillance, .showBar, [id=forum_recommend], [id=pagelet_frs-aside\\/pagelet\\/hottopic], [id=questionnaire_bg], [id=questionnaire_contianer], [id=video_aside], .bonus_forum_aside, .dialogJ.umoney-promotion-dialog, .dialogJmodal, .thread_recommend, .topic_list_box"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?tieba\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=adide_platform], [id=media_item], [id=spage_game_tab_wrapper], [id=spage_liveshow_slide], [id=plat_act_wrapper], .ihome_aside_section[j-mygift], .ihome_game_group, .member_rank, .userinfo_scores, .fMember_cnt, .split, .u_app, .u_appcenterEntrance, .u_bdhome, .u_blue, .u_game, .u_grab_treasure, .u_joinvip, .u_split, .u_member, .u_menu_tbmall, .u_mytbmall, .u_xiu8, .u_wallet, [id=local_board], [id=j_navtab_wanle], [id=j_navtab_game], .gift-goin, .icon_group, .j_tbnav_tab_a[stats-data^=\"fr=tb0_forum&st_mod=frs&st_value=tabgroup\"], .star_nav_ico_activity, .star_nav_ico_deal, .star_nav_ico_group, .star_nav_ico_tuan, [id=aside_ad], [id=aside_ad_wrapper], [id=novel-ranking], [id=tieba-notice].region_bright, .app_download_box, .app_forum_rank_float, .aside_region.celebrity, .fansparty-wrap, .guess-sidebar-container, .nani_app_download_box, .platform_aside_tieba_partner, .profile_bottom, .region_bright.celebrity, .tbui_fbar_bazhu, .tbui_fbar_props, .tieba_notice, .user_score, [id=top_activity], .achievement_medal_wrapper, .card_userinfo_honor, .d_icons, .d_nameplate, .dialogJ.game_player_auth_dialog, .dialogJ.tieba-sign-card, .fav-wrapper, .icon_author, .icon_wrap, .icon_replyer, .icon_tbworld, .j-post-send-gift, .p_mall_tail, .pre_icon_wrap, .save_face_bg, .sofa_front_list_wrap, .share_btn_wrapper, .thread_recommend_ps, .user_card_vip_tips, [id=bdshare], [id=guide_fc], [id=xiu8_follow_warn], .add_guessing_btn, .edui-btn-medal, .edui-btn-paypost, .j_surveillance, .showBar, .client_ghost_icon, .daoliu_sign_in_show, .dia_mask, .dia_wrapper, .forum_recommend_w, .light_top_ext_area, .j_click_stats, .j_click_stats+*, .more_btn_package, .tuijian-wrap, [id=activity_countdown_head], [id=attention-game-wraper_dialog], [id=baiduweishiDown], [id=duoku_servers_list], [id=encourage_entry], [id=fixed_bar], [id=fixed_daoliu], [id=frs-list-game], [id=game_cover_head_wrapper], [id=game_forum], [id=game_frs_head], [id=game_live_list], [id=game_live_widget], [id=game_rank], [id=global_notice_wrap], [id=j_light_see_index], [id=j_star_bus_before], [id=j_ten_years], [id=j_worldcup_info_banner], [id=loan_ad_mod_a], [id=local_pb_top], [id=pagelet_encourage-appforum\\/pagelet\\/my_app], [id=pagelet_encourage-tbguess\\/pagelet\\/sidebar], [id=pagelet_frs-aside\\/pagelet\\/ad], [id=pagelet_frs-header\\/pagelet\\/head_content_middle] > div[class]:not([class*=\"_\"]):first-child, [id=pagelet_search\\/pagelet\\/search_ad], [id=pblist] > li[class]:not(.j_post_list_item), [id=pc2client], [id=plat_order_head], [id=plat_recom_carousel] > .activity_head, [id=plat_recom_carousel] > .tbui_slideshow_list, [id=platform_left_float], [id=platform_spread_video], [id=pop_frame], [id=replyBusinessImg], [id=search_baidu_promote], [id=search_button_wrapper], [id=thread_list] > .j_thread_list + li[class]:not(.j_thread_list), [id=thread_list] > .j_thread_list:not([data-field]), [id=union_mod], [id=worldcup_guess_frs_wrap], [id=worldcup_topic], .BAIDU_CLB_AD, .activity_iframe_container, .advertise, .advertise_right_index, .app_forum_top_nav_tab, .client_ad_banner, .client_ad_topBanner, .client_ad_topBanner + .statistics_img_view + li[class], .client_ad_topBanner_all, .close_btn[src*=\"/adsense/\"] + div:last-child, .content_top, .dasense, .diamond-mall-aside, .firework-wrap, .firework_sender_wrap, .frs_act_repost_wrapper_outter, .frs_pb_leadapp_pop_show, .game-head-game-info-wrapper, .game_banner, .game_banner_common_wapper, .game_content, .game_list_and_rank, .game_spread_thread, .game_tab, .head_middle > div[class]:first-child, .hgame_mod_theme1, .hgame_mod_theme2, .hongbao_page_pop_common, .iSlider-wrapper-container-hot-thread, .images_game_container, .j_banner_post, .j_couplet, .j_df_card, .j_feed_li[fid=\"3665221\"], .j_l_post:not([data-field]), .j_l_post[data-field*=\"\\\"user_name\\\":\\\"\\\\u4e3f\\\\u5929\\\\u4e36\\\\u4e4b\\\\u6b87\\\"\"]:not([data-field*=\"\\\"user_id\\\":1180601200,\"]), .j_listLiveTvCnt, .j_listLiveTvCnt + .listBtnCnt + [id=listTalkCnt], .j_post_list_item[data-info^=\"\\7b \\\"un\\\":\\\"\\\\u623f\\\\u4ea7\\\\u5c0f\\\\u7ad9\\\\u957f\\\"\"], .j_post_list_item[data-info^=\"\\7b \\\"un\\\":\\\"\\\\u623f\\\\u4ea7\\\\u5feb\\\\u8baf\\\\u5927\\\\u7ba1\\\\u5bb6\\\"\"], .j_post_list_item[data-info^=\"\\7b \\\"un\\\":\\\"\\\\u623f\\\\u4ea7\\\\u901f\\\\u8baf\\\"\"], .j_post_list_item[data-info^=\"\\7b \\\"un\\\":\\\"\\\\u8d34\\\\u5427\\\\u89e6\\\\u70b9\\\\u63a8\\\\u5e7f\\\"\"], .j_thread_list[data-field^=\"\\7b \\\"id\\\":4419048726,\"], .j_thread_list[data-field^=\"\\7b \\\"id\\\":4756933479,\"], .kn_nine_wrap, .l_banner, .l_post + div[class]:not(.l_post), .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1224761005,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1480174042,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1480194257,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1990070693,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":50012654,\"], .life_helper, .live_show_aside, .lot_wrap, .order_repost_wrap, .per_list.j_per_list.per_list_frs, .play_list_panel, .post_client_down, .qipai_thread, .score_ecr_wrapper, .spreadad, .switch_radios + div[class], .tb_poster_info.poster_success, .tb_poster_placeholder, .tbui_aside_float_bar + .clearfix, .thread_dir_ad, .thread_local_58, .tl_shadow + * + li[class]:not([class=\"tl_shadow tl_shadow_new\"]):not([class=\"tl_shadow tl_shadow_new \"]):not([class=\"tl_shadow tl_shadow_new shadow\"]), .tl_spread, .top-sec + .middle-sec, .top_toutu_admarks + .tbui_slideshow_list, .u9_aside, .u9_head, .wanle_tab_tip, .worldcup_info_banner_dialog, :not(.tbui_slideshow_slide) > div[data-daid], [id^=\"spreadad_\"], a.fixed_bar, a[href*=\"www.clinique.\"], div[class][lgoinprompt=\"prompt\"], div[id*=\"lottery\"], li[data-daid], [id=forum_recommend], [id=pagelet_frs-aside\\/pagelet\\/hottopic], [id=questionnaire_bg], [id=questionnaire_contianer], [id=video_aside], .bonus_forum_aside, .dialogJ.umoney-promotion-dialog, .dialogJmodal, .thread_recommend, .topic_list_box"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?1111\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=activity_countdown_head], [id=attention-game-wraper_dialog], [id=baiduweishiDown], [id=duoku_servers_list], [id=encourage_entry], [id=fixed_bar], [id=fixed_daoliu], [id=frs-list-game], [id=game_cover_head_wrapper], [id=game_forum], [id=game_frs_head], [id=game_live_list], [id=game_live_widget], [id=game_rank], [id=global_notice_wrap], [id=j_star_bus_before], [id=j_ten_years], [id=j_worldcup_info_banner], [id=loan_ad_mod_a], [id=local_pb_top], [id=pagelet_encourage-appforum\\/pagelet\\/my_app], [id=pagelet_encourage-tbguess\\/pagelet\\/sidebar], [id=pagelet_frs-aside\\/pagelet\\/ad], [id=pagelet_frs-header\\/pagelet\\/head_content_middle] > div[class]:not([class*=\"_\"]):first-child, [id=pagelet_search\\/pagelet\\/search_ad], [id=pc2client], [id=plat_order_head], [id=plat_recom_carousel] > .activity_head, [id=plat_recom_carousel] > .tbui_slideshow_list, [id=platform_left_float], [id=platform_spread_video], [id=pop_frame], [id=replyBusinessImg], [id=search_baidu_promote], [id=search_button_wrapper], [id=thread_list] > .j_thread_list + li[class]:not(.j_thread_list), [id=thread_list] > .j_thread_list:not([data-field]), [id=union_mod], [id=worldcup_guess_frs_wrap], [id=worldcup_topic], .BAIDU_CLB_AD, .activity_iframe_container, .advertise_right_index, .app_forum_top_nav_tab, .close_btn[src*=\"/adsense/\"] + div:last-child, .content_top, .dasense, .diamond-mall-aside, .firework-wrap, .firework_sender_wrap, .frs_act_repost_wrapper_outter, .game-head-game-info-wrapper, .game_banner, .game_banner_common_wapper, .game_content, .game_list_and_rank, .game_spread_thread, .game_tab, .head_middle > div[class]:first-child, .hgame_mod_theme1, .hgame_mod_theme2, .images_game_container, .j_banner_post, .j_couplet, .j_df_card, .j_l_post:not([data-field]), .j_l_post[data-field*=\"\\\"user_name\\\":\\\"\\\\u4e3f\\\\u5929\\\\u4e36\\\\u4e4b\\\\u6b87\\\"\"]:not([data-field*=\"\\\"user_id\\\":1180601200,\"]), .j_listLiveTvCnt, .j_listLiveTvCnt + .listBtnCnt + [id=listTalkCnt], .j_thread_list[data-field^=\"\\7b \\\"id\\\":4419048726,\"], .j_thread_list[data-field^=\"\\7b \\\"id\\\":4756933479,\"], .kn_nine_wrap, .l_banner, .l_post + div[class]:not(.l_post), .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1224761005,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1480174042,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1480194257,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1990070693,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":50012654,\"], .life_helper, .live_show_aside, .lot_wrap, .order_repost_wrap, .per_list.j_per_list.per_list_frs, .play_list_panel, .qipai_thread, .score_ecr_wrapper, .spreadad, .switch_radios + div[class], .tb_poster_info.poster_success, .tb_poster_placeholder, .tbui_aside_float_bar + .clearfix, .thread_dir_ad, .thread_local_58, .top-sec + .middle-sec, .top_toutu_admarks + .tbui_slideshow_list, .u9_aside, .u9_head, .wanle_tab_tip, .worldcup_info_banner_dialog, :not(.tbui_slideshow_slide) > div[data-daid], [id^=\"spreadad_\"], a[href*=\"www.clinique.\"], div[id*=\"lottery\"], li[data-daid], [id=forum_recommend], [id=pagelet_frs-aside\\/pagelet\\/hottopic], [id=questionnaire_bg], [id=questionnaire_contianer], [id=video_aside], .bonus_forum_aside, .dialogJ.umoney-promotion-dialog, .dialogJmodal, .thread_recommend, .topic_list_box"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?bdimg\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=activity_countdown_head], [id=attention-game-wraper_dialog], [id=baiduweishiDown], [id=duoku_servers_list], [id=encourage_entry], [id=fixed_bar], [id=fixed_daoliu], [id=frs-list-game], [id=game_cover_head_wrapper], [id=game_forum], [id=game_frs_head], [id=game_live_list], [id=game_live_widget], [id=game_rank], [id=global_notice_wrap], [id=j_star_bus_before], [id=j_ten_years], [id=j_worldcup_info_banner], [id=loan_ad_mod_a], [id=local_pb_top], [id=pagelet_encourage-appforum\\/pagelet\\/my_app], [id=pagelet_encourage-tbguess\\/pagelet\\/sidebar], [id=pagelet_frs-aside\\/pagelet\\/ad], [id=pagelet_frs-header\\/pagelet\\/head_content_middle] > div[class]:not([class*=\"_\"]):first-child, [id=pagelet_search\\/pagelet\\/search_ad], [id=pblist] > li[class]:not(.j_post_list_item), [id=pc2client], [id=plat_order_head], [id=plat_recom_carousel] > .activity_head, [id=plat_recom_carousel] > .tbui_slideshow_list, [id=platform_left_float], [id=platform_spread_video], [id=pop_frame], [id=replyBusinessImg], [id=search_baidu_promote], [id=search_button_wrapper], [id=thread_list] > .j_thread_list + li[class]:not(.j_thread_list), [id=thread_list] > .j_thread_list:not([data-field]), [id=union_mod], [id=worldcup_guess_frs_wrap], [id=worldcup_topic], .BAIDU_CLB_AD, .activity_iframe_container, .advertise_right_index, .app_forum_top_nav_tab, .close_btn[src*=\"/adsense/\"] + div:last-child, .content_top, .dasense, .diamond-mall-aside, .firework-wrap, .firework_sender_wrap, .frs_act_repost_wrapper_outter, .game-head-game-info-wrapper, .game_banner, .game_banner_common_wapper, .game_content, .game_list_and_rank, .game_spread_thread, .game_tab, .head_middle > div[class]:first-child, .hgame_mod_theme1, .hgame_mod_theme2, .images_game_container, .j_banner_post, .j_couplet, .j_df_card, .j_l_post:not([data-field]), .j_l_post[data-field*=\"\\\"user_name\\\":\\\"\\\\u4e3f\\\\u5929\\\\u4e36\\\\u4e4b\\\\u6b87\\\"\"]:not([data-field*=\"\\\"user_id\\\":1180601200,\"]), .j_listLiveTvCnt, .j_listLiveTvCnt + .listBtnCnt + [id=listTalkCnt], .j_thread_list[data-field^=\"\\7b \\\"id\\\":4419048726,\"], .j_thread_list[data-field^=\"\\7b \\\"id\\\":4756933479,\"], .kn_nine_wrap, .l_banner, .l_post + div[class]:not(.l_post), .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1224761005,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1480174042,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1480194257,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1990070693,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":50012654,\"], .life_helper, .live_show_aside, .lot_wrap, .order_repost_wrap, .per_list.j_per_list.per_list_frs, .play_list_panel, .qipai_thread, .score_ecr_wrapper, .spreadad, .switch_radios + div[class], .tb_poster_info.poster_success, .tb_poster_placeholder, .tbui_aside_float_bar + .clearfix, .thread_dir_ad, .thread_local_58, .tl_shadow + * + li[class]:not([class=\"tl_shadow tl_shadow_new\"]):not([class=\"tl_shadow tl_shadow_new \"]):not([class=\"tl_shadow tl_shadow_new shadow\"]), .top-sec + .middle-sec, .top_toutu_admarks + .tbui_slideshow_list, .u9_aside, .u9_head, .wanle_tab_tip, .worldcup_info_banner_dialog, :not(.tbui_slideshow_slide) > div[data-daid], [id^=\"spreadad_\"], a[href*=\"www.clinique.\"], div[class][lgoinprompt=\"prompt\"], div[id*=\"lottery\"], li[data-daid]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?tieba\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=activity_countdown_head], [id=attention-game-wraper_dialog], [id=baiduweishiDown], [id=duoku_servers_list], [id=encourage_entry], [id=fixed_bar], [id=fixed_daoliu], [id=frs-list-game], [id=game_cover_head_wrapper], [id=game_forum], [id=game_frs_head], [id=game_live_list], [id=game_live_widget], [id=game_rank], [id=global_notice_wrap], [id=j_star_bus_before], [id=j_ten_years], [id=j_worldcup_info_banner], [id=loan_ad_mod_a], [id=local_pb_top], [id=pagelet_encourage-appforum\\/pagelet\\/my_app], [id=pagelet_encourage-tbguess\\/pagelet\\/sidebar], [id=pagelet_frs-aside\\/pagelet\\/ad], [id=pagelet_frs-header\\/pagelet\\/head_content_middle] > div[class]:not([class*=\"_\"]):first-child, [id=pagelet_search\\/pagelet\\/search_ad], [id=pblist] > li[class]:not(.j_post_list_item), [id=pc2client], [id=plat_order_head], [id=plat_recom_carousel] > .activity_head, [id=plat_recom_carousel] > .tbui_slideshow_list, [id=platform_left_float], [id=platform_spread_video], [id=pop_frame], [id=replyBusinessImg], [id=search_baidu_promote], [id=search_button_wrapper], [id=thread_list] > .j_thread_list + li[class]:not(.j_thread_list), [id=thread_list] > .j_thread_list:not([data-field]), [id=union_mod], [id=worldcup_guess_frs_wrap], [id=worldcup_topic], .BAIDU_CLB_AD, .activity_iframe_container, .advertise_right_index, .app_forum_top_nav_tab, .close_btn[src*=\"/adsense/\"] + div:last-child, .content_top, .dasense, .diamond-mall-aside, .firework-wrap, .firework_sender_wrap, .frs_act_repost_wrapper_outter, .game-head-game-info-wrapper, .game_banner, .game_banner_common_wapper, .game_content, .game_list_and_rank, .game_spread_thread, .game_tab, .head_middle > div[class]:first-child, .hgame_mod_theme1, .hgame_mod_theme2, .images_game_container, .j_banner_post, .j_couplet, .j_df_card, .j_l_post:not([data-field]), .j_l_post[data-field*=\"\\\"user_name\\\":\\\"\\\\u4e3f\\\\u5929\\\\u4e36\\\\u4e4b\\\\u6b87\\\"\"]:not([data-field*=\"\\\"user_id\\\":1180601200,\"]), .j_listLiveTvCnt, .j_listLiveTvCnt + .listBtnCnt + [id=listTalkCnt], .j_thread_list[data-field^=\"\\7b \\\"id\\\":4419048726,\"], .j_thread_list[data-field^=\"\\7b \\\"id\\\":4756933479,\"], .kn_nine_wrap, .l_banner, .l_post + div[class]:not(.l_post), .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1224761005,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1480174042,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1480194257,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1990070693,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":50012654,\"], .life_helper, .live_show_aside, .lot_wrap, .order_repost_wrap, .per_list.j_per_list.per_list_frs, .play_list_panel, .qipai_thread, .score_ecr_wrapper, .spreadad, .switch_radios + div[class], .tb_poster_info.poster_success, .tb_poster_placeholder, .tbui_aside_float_bar + .clearfix, .thread_dir_ad, .thread_local_58, .tl_shadow + * + li[class]:not([class=\"tl_shadow tl_shadow_new\"]):not([class=\"tl_shadow tl_shadow_new \"]):not([class=\"tl_shadow tl_shadow_new shadow\"]), .top-sec + .middle-sec, .top_toutu_admarks + .tbui_slideshow_list, .u9_aside, .u9_head, .wanle_tab_tip, .worldcup_info_banner_dialog, :not(.tbui_slideshow_slide) > div[data-daid], [id^=\"spreadad_\"], a[href*=\"www.clinique.\"], div[class][lgoinprompt=\"prompt\"], div[id*=\"lottery\"], li[data-daid], [id=forum_recommend], [id=pagelet_frs-aside\\/pagelet\\/hottopic], [id=questionnaire_bg], [id=questionnaire_contianer], [id=video_aside], .bonus_forum_aside, .dialogJ.umoney-promotion-dialog, .dialogJmodal, .thread_recommend, .topic_list_box"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?xingqu\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=activity_countdown_head], [id=attention-game-wraper_dialog], [id=baiduweishiDown], [id=duoku_servers_list], [id=encourage_entry], [id=fixed_bar], [id=fixed_daoliu], [id=frs-list-game], [id=game_cover_head_wrapper], [id=game_forum], [id=game_frs_head], [id=game_live_list], [id=game_live_widget], [id=game_rank], [id=global_notice_wrap], [id=j_star_bus_before], [id=j_ten_years], [id=j_worldcup_info_banner], [id=loan_ad_mod_a], [id=local_pb_top], [id=pagelet_encourage-appforum\\/pagelet\\/my_app], [id=pagelet_encourage-tbguess\\/pagelet\\/sidebar], [id=pagelet_frs-aside\\/pagelet\\/ad], [id=pagelet_frs-header\\/pagelet\\/head_content_middle] > div[class]:not([class*=\"_\"]):first-child, [id=pagelet_search\\/pagelet\\/search_ad], [id=pc2client], [id=plat_order_head], [id=plat_recom_carousel] > .activity_head, [id=plat_recom_carousel] > .tbui_slideshow_list, [id=platform_left_float], [id=platform_spread_video], [id=pop_frame], [id=replyBusinessImg], [id=search_baidu_promote], [id=search_button_wrapper], [id=thread_list] > .j_thread_list + li[class]:not(.j_thread_list), [id=thread_list] > .j_thread_list:not([data-field]), [id=union_mod], [id=worldcup_guess_frs_wrap], [id=worldcup_topic], .BAIDU_CLB_AD, .activity_iframe_container, .advertise_right_index, .app_forum_top_nav_tab, .close_btn[src*=\"/adsense/\"] + div:last-child, .content_top, .dasense, .diamond-mall-aside, .firework-wrap, .firework_sender_wrap, .frs_act_repost_wrapper_outter, .game-head-game-info-wrapper, .game_banner, .game_banner_common_wapper, .game_content, .game_list_and_rank, .game_spread_thread, .game_tab, .head_middle > div[class]:first-child, .hgame_mod_theme1, .hgame_mod_theme2, .images_game_container, .j_banner_post, .j_couplet, .j_df_card, .j_l_post:not([data-field]), .j_l_post[data-field*=\"\\\"user_name\\\":\\\"\\\\u4e3f\\\\u5929\\\\u4e36\\\\u4e4b\\\\u6b87\\\"\"]:not([data-field*=\"\\\"user_id\\\":1180601200,\"]), .j_listLiveTvCnt, .j_listLiveTvCnt + .listBtnCnt + [id=listTalkCnt], .j_thread_list[data-field^=\"\\7b \\\"id\\\":4419048726,\"], .j_thread_list[data-field^=\"\\7b \\\"id\\\":4756933479,\"], .kn_nine_wrap, .l_banner, .l_post + div[class]:not(.l_post), .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1224761005,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1480174042,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1480194257,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":1990070693,\"], .l_post[data-field^=\"\\7b \\\"author\\\":\\7b \\\"user_id\\\":50012654,\"], .life_helper, .live_show_aside, .lot_wrap, .order_repost_wrap, .per_list.j_per_list.per_list_frs, .play_list_panel, .qipai_thread, .score_ecr_wrapper, .spreadad, .switch_radios + div[class], .tb_poster_info.poster_success, .tb_poster_placeholder, .tbui_aside_float_bar + .clearfix, .thread_dir_ad, .thread_local_58, .top-sec + .middle-sec, .top_toutu_admarks + .tbui_slideshow_list, .u9_aside, .u9_head, .wanle_tab_tip, .worldcup_info_banner_dialog, :not(.tbui_slideshow_slide) > div[data-daid], [id^=\"spreadad_\"], a[href*=\"www.clinique.\"], div[id*=\"lottery\"], li[data-daid], [id=forum_recommend], [id=pagelet_frs-aside\\/pagelet\\/hottopic], [id=questionnaire_bg], [id=questionnaire_contianer], [id=video_aside], .bonus_forum_aside, .dialogJ.umoney-promotion-dialog, .dialogJmodal, .thread_recommend, .topic_list_box"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=adCard], [id=adMainTopLeft], [id=adMainTopRight], [id=adTitleRight], [id=ad_xbox_1], [id=ad_xbox_2], [id=ad_xbox_3], [id=asideLeft], [id=asideRight], [id=bdyx_float_rb], [id=cms-company], [id=cms-scroll], [id=couplet-left], [id=couplet-right], [id=ec_im_container], [id=fengchaoad], [id=gamePromo], [id=index_banner_top], [id=index_right_float], [id=index_right_top], [id=j-ad-first], [id=j-ad-side], [id=left-promotion], [id=qrcode-chunwan], [id=search-union-ad], [id=search_bottomad], [id=sning1], [id=sning2], [id=sning3], [id=spage-top-banner], [id=video_push_box], [id=wgt-ad-right-fixed], [id=wgt-left-promo], .ad-block-1, .ad-platform-tips, .ad-taishan, .ad-vip-close, .ad-vip-close-bottom, .adLog, .adTopImg, .afd-item, .aside-inner > div[style*=\"height:\"], .banner-cover, .bannerdown, .bds-list-ads, .c-container.ec-container, .c-result[data-tpl=\"adv_wenku_fc\"], .cbg-Ads, .chunwan-wrapper, .content-adv, .ec-ad, .ec-oad, .ec_ad, .ec_im_container, .ec_sma_im, .ec_wise_ad, .ecomad-banner-loading, .gg-content, .img-adv-swap1, .intro-adv, .l-header-ad, .link-banner, .manual-spread, .nav_ads, .optimus, .page-banner, .pageLeftFixedAD, .picad, .qb-other-answer-wmad, .quality-elinks, .rec-feeditem, .rightAd-skin, .s-news-special[data-url^=\"http://vip.baidu.com/\"], .sam_iebrowser_banner, .search-aside-adWrap, .sf-wrap > .c-back + div[id]:last-child, .sfc-image-content-adrootnew, .sfc-image-content-adtext, .sfc-image-content-waterfall-item > div:not([class]) > .sfc-image-content-cell, .slide-bner-adv-ret, .spage-couplet-container, .spread-wrap, .tc-card[tpl=\"fc_before_fixads\"], .text-advertise, .text-link-ads, .top-ad-cont, .top-banner-ad-wrap, .topBanner, .union-tg, .v-s-tuiguang-wrap, .w-question-list[data-sign], .wapAd, .wgt-ads, .wgt-bottom-ask, .wgt-bottom-union, .wgt-union, div[class$=\"-ecom-ads\"], div[data-ad], div[style=\"padding: 20px 9px 20px 10px;widget:250px;height:250px;\"], [id=content_right] > div > div[id^=\"m\"], .opr-zhaopin-ad-ctn, .wa-zp-exact-new-border, div[id$=\"2\"] ~ [id=\\31] [data-click^=\"\\7b \\\"rsv_bdr\\\":\\\"0\\\",\\\"p5\\\":\"], [id=activateGuidePopupOuter], [id=exp-fixed-bottom], .app-guide, .apphint, .baiduapp-ad-container, .banner-active, .commentEmbed-backHomeCard, .download-app-parent, .eye-catching-tpl-container, .first-card-container, .home-app-promotion, .openAppCarsouselTpl, .openAppCommonTpl-100, .openBox-shareEntry, .redenvelope-small, .rmb-carsousel-position-bottom, .rmb-growth-common-tpl-1-wrapper, .s-news-banner-wrap, .s-tutorial-tip"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?rj\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=ader], .code-wp, .entrance, .mid-recommend, .top-recommend"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?image\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=adsearch], [id=cmsimage], [id=ecomContainer], [id=imgCmsAdPart], [id=imgid] > .fcimgpage, [id=only-lady-sec], [id=pageLayoutTipWindow], [id=plz-albums], [id=plz-head-banner], [id=relEcom], [id=relecom54], .ford-tag, .imglist > .fcImgli, .mod-promo, .recom, .recommend, .right-banner-area, .sample0, .sample1, .sample2, .tjImgli, .tjad, .wrapper_dot_box.dot_black, div[id^=\"relecom\"]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?18avhub\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=banner]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?18avtube\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=banner]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?360\\.cn[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=banner]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?adultwefong\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=banner]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?avmimi\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=banner]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?mm-cg\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=banner]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?sports\\.qq\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=banner]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?suopao\\.org[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=banner]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?ting56\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=banner]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?youxi\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=banner], [id=coupletBanner]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?zgfznews\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=banner]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?iwan\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=banner-box], [id=banner-info], [id=j-ditu], [id=j-media], [id=side-xbox], .ad-box, .banner-container, .side-banner"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?wapwenku\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=bottomFixed], .tout, a[href^=\"http://www.baidu.com/cpro.php?\"]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?wk\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=bottomFixed], .tout, a[href^=\"http://www.baidu.com/cpro.php?\"]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?gate\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=container]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?m\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=container], .ec_adv, .news_ad, a[href*=\"m.lecai.com\"], [id=results] > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result), [id=banner_call] + div[id]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?mbd\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=content_wrapper] + div + .default-container, .related-news > section:first-child + div, div[class^=\"_\"][style=\"visibility: visible;\"]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?danyang\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=couplet-left], [id=couplet-right]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?wenku\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=ggbtm-ads], [id=ppt-bottom-ads], .area[href*=\"/adclick?aid=\"], .banner-more-title, .commerce-flow, .dialog-ad-hd, .edu_class_pop_dialog, .reader-to-cashier-vip > .rights-wrap, .wubai-wrap, .zhixin-ads, .zhixin-right, a[class*=\"tiger-\"][class*=\"-dialog\"], div[class*=\"tiger-\"][class*=\"-dialog\"], div[id^=\"html-reader-AD-\"], div[id^=\"html-reader-banner-\"]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?map\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=mapBanner], .damoce-search-item, .search-item[data-stat-code=\"poisearch.damoce.item\"]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?wapp\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=pblist] > li[class]:not(.j_post_list_item), .iSlider-wrapper-container-hot-thread, a.fixed_bar"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?pan\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=share_ad_info_panl], .decrease-active"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?news\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=women-picwall], .ecom_pingzhuan, [id=detail-HotScrollNews-wrapper], [id=favoriteTips], .recommend-animate, .recommend-mask, .swipe-backflow-container"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?50yxw\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".ad-box"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?cangku\\.in[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".ad-box"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?cangku\\.moe[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".ad-box"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?qq\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".ad-box"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?qtv\\.com\\.cn[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".ad-box"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?xinhuanet\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".ad-box"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?zol\\.com\\.cn[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".ad-box"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?hao123\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".advertise"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?sohu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".advertise"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?fanyi\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".appbanner, .banner-wrap, .banner_img_container, .extra-banners, .hot-link-middle, .trans-side-ad-wrap"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?jingyan\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".aside-pro-container"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?longzhu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".banner-wrap"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?muzhi\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".bottom-banner, .leftnest, .quick-ask-2 + .android + div, .rightnest, .wgt-best-answer + script + div, .wgt-container"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?zuoye\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".cpro, dl[class=\"card related\"], [id=QRinside], [id=aside]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?zybang\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".cpro, [id=QRinside], [id=aside]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?cssmoban\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".page-banner"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?baobao\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".qb-relate-box"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?ilxdh\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".recommend"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?xizi\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".recommend"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?cntour2\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".topBanner"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?dict\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".tran-download-ad"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?feed\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[data-type=\"ec_ad\"], body > div[id$=\"-container\"]:last-child"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?v\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href^=\"http://www.602.com/\"], div[id^=\"adv_asp_\"]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?api\\.so\\.lianmeng\\.360\\.cn[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "body"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?pos\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "body"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?power\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "style[id^=\"s-m\"] + div[id^=\"m\"]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?zhidao\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "style[id^=\"s-m\"] + div[id^=\"m\"], [id=act-link-banner], [id=main-content] > div[class]:first-child > a, .link"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?ipv6\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "content_left > [class]:-abp-has(span[data-tuiguang]), content_left > [style*=\"important\"], [id=content_left] > [class] > [id*=\"00\"] > div, [id=content_left] > [class] > [id*=\"00\"] > tbody, [id=content_left] > [class] > [id*=\"00\"] > ul, [id=content_left] > [class] > a[href*=\"//e.baidu.com/?refer=\"], [id=content_left] > [id*=\"00\"]:not(.result):not(.result-op) > div, [id=content_left] > [id*=\"00\"]:not(.result):not(.result-op) > tbody, [id=content_left] > [id*=\"00\"]:not(.result):not(.result-op) > ul, [id=content_left] > div:not([id]) > div[id][data-rendered=\"true\"], [id=content_left] > div[class][style]:not([id]), [id=content_left] > div[id*=\"00\"]:not(.result):not(.result-op) + div[class]:not(.result):not(.result-op), [id=content_left] > style[id^=\"s-\"] + div[id]:nth-child(2), [id=content_right] > table > tbody > tr > td > div:not([id=con-ar]):not([class]), [id=content_right] > table > tbody > tr > td > table, [id=ecl-temai-category], [id=ecl-temai-general], [id=ecl-weigou-view-container], [id=lm], [id=op_wiseapp], [id=results] > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result), .EC_newppim, .ec_bdtg, .ecl-car-powerful-container, .ecl-health-pagelist-wrapper, .ecl-health-poplist-wrapper, .ecl-loan-list-card, .ecl-tg-content, .ecl-wealth-list-card-container, .ecl-weigou-nav-buy, .op_tvplay_main, .opr-xmas-game-container, .res_top_banner, .result-op[data-click*=\"\\\"rsv_srcid\\\":\\\"10090\\\"\"], .result-op[tpl=\"right_chris_prize_list\"], .result-op[tpl=\"right_timeliness2\"], .tools > .shouji, .ylbx_game_desc, div:not([id]) > style[id^=\"s-\"] + div[id], div:not([id]) > style[id^=\"s-\"] + style + div + div[id], div:not([id]) > style[id^=\"s-\"] + style + div[id], div[class^=\"EC_pla_\"], div[class^=\"ecl\"][class*=\"game\"] > .c-border, div[class^=\"ecl-edu-\"], div[class^=\"ecr\"][class*=\"game\"], div[data-click=\"\\7b \\\"rsv_srcid\\\":49516\\7d \"], div[id$=\"_canvas\"], div[id^=\"ecl-pc-game-\"], div[srcid=\"13602\"] > .c-border, div[tpl=\"app_normal\"], div[tpl=\"houses_new\"] > .c-border, div[tpl^=\"ecl_health\"] > .c-border, div[tpl^=\"job\"] > .c-border, div[tpl^=\"qunar_hotel\"] > .c-border, div[tpl^=\"right_qunar_hotel\"], div[tpl^=\"soft\"] > .c-border, style[id^=\"s-\"] + script + div[id], style[id^=\"s-\"] + script + script + div[id]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?www\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "content_left > [class]:-abp-has(span[data-tuiguang]), content_left > [style*=\"important\"], [id=content_left] > [class] > [id*=\"00\"] > div, [id=content_left] > [class] > [id*=\"00\"] > tbody, [id=content_left] > [class] > [id*=\"00\"] > ul, [id=content_left] > [class] > a[href*=\"//e.baidu.com/?refer=\"], [id=content_left] > [id*=\"00\"]:not(.result):not(.result-op) > div, [id=content_left] > [id*=\"00\"]:not(.result):not(.result-op) > tbody, [id=content_left] > [id*=\"00\"]:not(.result):not(.result-op) > ul, [id=content_left] > div:not([id]) > div[id][data-rendered=\"true\"], [id=content_left] > div[class][style]:not([id]), [id=content_left] > div[id*=\"00\"]:not(.result):not(.result-op) + div[class]:not(.result):not(.result-op), [id=content_left] > style[id^=\"s-\"] + div[id]:nth-child(2), [id=content_right] > table > tbody > tr > td > div:not([id=con-ar]):not([class]), [id=content_right] > table > tbody > tr > td > table, [id=ecl-temai-category], [id=ecl-temai-general], [id=ecl-weigou-view-container], [id=lm], [id=op_wiseapp], [id=results] > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result), .EC_newppim, .ec_bdtg, .ecl-car-powerful-container, .ecl-health-pagelist-wrapper, .ecl-health-poplist-wrapper, .ecl-loan-list-card, .ecl-tg-content, .ecl-wealth-list-card-container, .ecl-weigou-nav-buy, .op_tvplay_main, .opr-xmas-game-container, .res_top_banner, .result-op[data-click*=\"\\\"rsv_srcid\\\":\\\"10090\\\"\"], .result-op[tpl=\"right_chris_prize_list\"], .result-op[tpl=\"right_timeliness2\"], .tools > .shouji, .ylbx_game_desc, div:not([id]) > style[id^=\"s-\"] + div[id], div:not([id]) > style[id^=\"s-\"] + style + div + div[id], div:not([id]) > style[id^=\"s-\"] + style + div[id], div[class^=\"EC_pla_\"], div[class^=\"ecl\"][class*=\"game\"] > .c-border, div[class^=\"ecl-edu-\"], div[class^=\"ecr\"][class*=\"game\"], div[data-click=\"\\7b \\\"rsv_srcid\\\":49516\\7d \"], div[id$=\"_canvas\"], div[id^=\"ecl-pc-game-\"], div[srcid=\"13602\"] > .c-border, div[tpl=\"app_normal\"], div[tpl=\"houses_new\"] > .c-border, div[tpl^=\"ecl_health\"] > .c-border, div[tpl^=\"job\"] > .c-border, div[tpl^=\"qunar_hotel\"] > .c-border, div[tpl^=\"right_qunar_hotel\"], div[tpl^=\"soft\"] > .c-border, style[id^=\"s-\"] + script + div[id], style[id^=\"s-\"] + script + script + div[id], [id=banner_call] + div[id]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?www1\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "content_left > [class]:-abp-has(span[data-tuiguang]), content_left > [style*=\"important\"], [id=content_left] > [class] > [id*=\"00\"] > div, [id=content_left] > [class] > [id*=\"00\"] > tbody, [id=content_left] > [class] > [id*=\"00\"] > ul, [id=content_left] > [class] > a[href*=\"//e.baidu.com/?refer=\"], [id=content_left] > [id*=\"00\"]:not(.result):not(.result-op) > div, [id=content_left] > [id*=\"00\"]:not(.result):not(.result-op) > tbody, [id=content_left] > [id*=\"00\"]:not(.result):not(.result-op) > ul, [id=content_left] > div:not([id]) > div[id][data-rendered=\"true\"], [id=content_left] > div[class][style]:not([id]), [id=content_left] > div[id*=\"00\"]:not(.result):not(.result-op) + div[class]:not(.result):not(.result-op), [id=content_left] > style[id^=\"s-\"] + div[id]:nth-child(2), [id=content_right] > table > tbody > tr > td > div:not([id=con-ar]):not([class]), [id=content_right] > table > tbody > tr > td > table, [id=ecl-temai-category], [id=ecl-temai-general], [id=ecl-weigou-view-container], [id=lm], [id=op_wiseapp], [id=results] > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result), .EC_newppim, .ec_bdtg, .ecl-car-powerful-container, .ecl-health-pagelist-wrapper, .ecl-health-poplist-wrapper, .ecl-loan-list-card, .ecl-tg-content, .ecl-wealth-list-card-container, .ecl-weigou-nav-buy, .op_tvplay_main, .opr-xmas-game-container, .res_top_banner, .result-op[data-click*=\"\\\"rsv_srcid\\\":\\\"10090\\\"\"], .result-op[tpl=\"right_chris_prize_list\"], .result-op[tpl=\"right_timeliness2\"], .tools > .shouji, .ylbx_game_desc, div:not([id]) > style[id^=\"s-\"] + div[id], div:not([id]) > style[id^=\"s-\"] + style + div + div[id], div:not([id]) > style[id^=\"s-\"] + style + div[id], div[class^=\"EC_pla_\"], div[class^=\"ecl\"][class*=\"game\"] > .c-border, div[class^=\"ecl-edu-\"], div[class^=\"ecr\"][class*=\"game\"], div[data-click=\"\\7b \\\"rsv_srcid\\\":49516\\7d \"], div[id$=\"_canvas\"], div[id^=\"ecl-pc-game-\"], div[srcid=\"13602\"] > .c-border, div[tpl=\"app_normal\"], div[tpl=\"houses_new\"] > .c-border, div[tpl^=\"ecl_health\"] > .c-border, div[tpl^=\"job\"] > .c-border, div[tpl^=\"qunar_hotel\"] > .c-border, div[tpl^=\"right_qunar_hotel\"], div[tpl^=\"soft\"] > .c-border, style[id^=\"s-\"] + script + div[id], style[id^=\"s-\"] + script + script + div[id]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?xueshu\\.baidu\\.com#\\?[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "content_left > [class]:-abp-has(span[data-tuiguang]), content_left > [style*=\"important\"]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?xueshu\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=content_left] > [class] > [id*=\"00\"] > div, [id=content_left] > [class] > [id*=\"00\"] > tbody, [id=content_left] > [class] > [id*=\"00\"] > ul, [id=content_left] > [class] > a[href*=\"//e.baidu.com/?refer=\"], [id=content_left] > [id*=\"00\"]:not(.result):not(.result-op) > div, [id=content_left] > [id*=\"00\"]:not(.result):not(.result-op) > tbody, [id=content_left] > [id*=\"00\"]:not(.result):not(.result-op) > ul, [id=content_left] > div:not([id]) > div[id][data-rendered=\"true\"], [id=content_left] > div[class][style]:not([id]), [id=content_left] > div[id*=\"00\"]:not(.result):not(.result-op) + div[class]:not(.result):not(.result-op), [id=content_left] > style[id^=\"s-\"] + div[id]:nth-child(2), [id=content_right] > table > tbody > tr > td > div:not([id=con-ar]):not([class]), [id=content_right] > table > tbody > tr > td > table, [id=ecl-temai-category], [id=ecl-temai-general], [id=ecl-weigou-view-container], [id=lm], [id=op_wiseapp], [id=results] > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result), .EC_newppim, .ec_bdtg, .ecl-car-powerful-container, .ecl-health-pagelist-wrapper, .ecl-health-poplist-wrapper, .ecl-loan-list-card, .ecl-tg-content, .ecl-wealth-list-card-container, .ecl-weigou-nav-buy, .op_tvplay_main, .opr-xmas-game-container, .res_top_banner, .result-op[data-click*=\"\\\"rsv_srcid\\\":\\\"10090\\\"\"], .result-op[tpl=\"right_chris_prize_list\"], .result-op[tpl=\"right_timeliness2\"], .tools > .shouji, .ylbx_game_desc, div:not([id]) > style[id^=\"s-\"] + div[id], div:not([id]) > style[id^=\"s-\"] + style + div + div[id], div:not([id]) > style[id^=\"s-\"] + style + div[id], div[class^=\"EC_pla_\"], div[class^=\"ecl\"][class*=\"game\"] > .c-border, div[class^=\"ecl-edu-\"], div[class^=\"ecr\"][class*=\"game\"], div[data-click=\"\\7b \\\"rsv_srcid\\\":49516\\7d \"], div[id$=\"_canvas\"], div[id^=\"ecl-pc-game-\"], div[srcid=\"13602\"] > .c-border, div[tpl=\"app_normal\"], div[tpl=\"houses_new\"] > .c-border, div[tpl^=\"ecl_health\"] > .c-border, div[tpl^=\"job\"] > .c-border, div[tpl^=\"qunar_hotel\"] > .c-border, div[tpl^=\"right_qunar_hotel\"], div[tpl^=\"soft\"] > .c-border, style[id^=\"s-\"] + script + div[id], style[id^=\"s-\"] + script + script + div[id]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?3g\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=banner_call] + div[id]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?m5\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=banner_call] + div[id]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?po\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "[id=shareBoxBlank]"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?baike\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".baike-dynamic-wrapper"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?mobile\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".p_fixed_lb"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?yd\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": ".ui-distribution-bar"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/:]*\\.)?baijiahao\\.baidu\\.com[/:]",
+		"url-filter-is-case-sensitive": true,
+		"load-type": [
+			"first-party"
+		]
+	},
+	"action": {
+		"type": "css-display-none",
+		"selector": "body > div[id$=\"-container\"]:last-child"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?.*/widget/spage_game_tab/",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		],
+		"if-domain": [
+			"*tieba.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?xiu8\\.com/live/",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"if-domain": [
+			"*tieba.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?baiduyubaidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*baiduyubaidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?cb\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*cb.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?cbjs\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*cbjs.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?cpro\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*cpro.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?drmcmm\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*drmcmm.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?duiwai\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*duiwai.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?eduad\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*eduad.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?eiv\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*eiv.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?hao123union\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"load-type": [
+			"third-party"
+		],
+		"unless-domain": [
+			"*hao123union.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?jsmbaidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"load-type": [
+			"third-party"
+		],
+		"unless-domain": [
+			"*jsmbaidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?mobads\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"load-type": [
+			"third-party"
+		],
+		"unless-domain": [
+			"*mobads.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?pos\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*pos.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?spcode\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*spcode.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/]+\\.)?baidu\\.com/adrc\\.",
+		"resource-type": [
+			"popup"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/]+\\.)?baidu\\.com/baidu\\.php\\?url=",
+		"resource-type": [
+			"popup"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?.*/11431a7ff0f5\\.swf",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		],
+		"if-domain": [
+			"*tieba.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?.*/r/video/",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		],
+		"if-domain": [
+			"*youxi.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/]+\\.)?baidu\\.com/ecom",
+		"resource-type": [
+			"image",
+			"script"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"if-domain": [
+			"*android100.org",
+			"*pos.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?baifen\\.music\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*baifen.music.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/]+\\.)?imgsrc\\.baidu\\.com/tieba/pic/item/",
+		"resource-type": [
+			"image"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?iwanad\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*iwanad.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?mbd\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"if-domain": [
+			"*xiaoyun.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^1111\\.baidu\\.com,bdimg\\.com,tieba\\.baidu\\.com,tieba\\.com,xingqu\\.baidu\\.com#\\?#\\.p_postlist%3E:-abp-properties\\(width:739px;\\)",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?.*1111\\.baidu\\.com,bdimg\\.com,tieba\\.baidu\\.com,tieba\\.com,xingqu\\.baidu\\.com#\\?#\\.p_postlist%3E:-abp-properties\\(width:739px;\\)",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^3g\\.baidu\\.com,m\\.baidu\\.com,m5\\.baidu\\.com,www\\.baidu\\.com#\\?#div:-abp-has\\(%3E\\.openBox-container\\)",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?.*3g\\.baidu\\.com,m\\.baidu\\.com,m5\\.baidu\\.com,www\\.baidu\\.com#\\?#div:-abp-has\\(%3E\\.openBox-container\\)",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^3g\\.baidu\\.com,m\\.baidu\\.com,m5\\.baidu\\.com,www\\.baidu\\.com#\\?#div:-abp-has\\(%3Ediv\\[id\\$=%22_1%22\\]\\+div\\[id\\$=%22_5%22\\]\\)",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?.*3g\\.baidu\\.com,m\\.baidu\\.com,m5\\.baidu\\.com,www\\.baidu\\.com#\\?#div:-abp-has\\(%3Ediv\\[id\\$=%22_1%22\\]\\+div\\[id\\$=%22_5%22\\]\\)",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?.*baidu\\.com#\\?#\\.ec_wise_ad",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^news\\.baidu\\.com#\\?#\\.index-list-item:-abp-has\\(\\.tip-time:-abp-contains\\(%E5%B9%BF%E5%91%8A\\)\\)",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?.*news\\.baidu\\.com#\\?#\\.index-list-item:-abp-has\\(\\.tip-time:-abp-contains\\(%E5%B9%BF%E5%91%8A\\)\\)",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?.*ipv6\\.baidu\\.com,www\\.baidu\\.com,www1\\.baidu\\.com,xueshu\\.baidu\\.com#\\?#div\\[id\\$=%22_canvas%22\\]",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^ipv6\\.baidu\\.com,xueshu\\.baidu\\.com,www\\.baidu\\.com,www1\\.baidu\\.com#\\?#\\.c-container:-abp-has\\(\\.t%3Ea\\[data-landurl\\]\\)",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?.*ipv6\\.baidu\\.com,xueshu\\.baidu\\.com,www\\.baidu\\.com,www1\\.baidu\\.com#\\?#\\.c-container:-abp-has\\(\\.t%3Ea\\[data-landurl\\]\\)",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^ipv6\\.baidu\\.com,xueshu\\.baidu\\.com,www\\.baidu\\.com,www1\\.baidu\\.com#\\?#div:not\\(\\[id\\]\\)%3Estyle\\[id[^-_.%A-Za-z0-9]=%22s-%22\\]\\+style\\+div\\+div\\[id\\]",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?.*ipv6\\.baidu\\.com,xueshu\\.baidu\\.com,www\\.baidu\\.com,www1\\.baidu\\.com#\\?#div:not\\(\\[id\\]\\)%3Estyle\\[id[^-_.%A-Za-z0-9]=%22s-%22\\]\\+style\\+div\\+div\\[id\\]",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^ipv6\\.baidu\\.com,xueshu\\.baidu\\.com,www\\.baidu\\.com,www1\\.baidu\\.com#\\?#div:not\\(\\[id\\]\\)%3Estyle\\[id[^-_.%A-Za-z0-9]=%22s-%22\\]\\+style\\+div\\[id\\]",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?.*ipv6\\.baidu\\.com,xueshu\\.baidu\\.com,www\\.baidu\\.com,www1\\.baidu\\.com#\\?#div:not\\(\\[id\\]\\)%3Estyle\\[id[^-_.%A-Za-z0-9]=%22s-%22\\]\\+style\\+div\\[id\\]",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?as1\\.wenku\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*as1.wenku.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?cm\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*cm.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?f.*\\.baidu\\.com/it/u=.*,.*&fm=",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"load-type": [
+			"third-party"
+		],
+		"unless-domain": [
+			"*baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?mountain\\.zhidao\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*mountain.zhidao.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?t.*\\.baidu\\.com/it/u=.*,.*&fm=76",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"load-type": [
+			"third-party"
+		],
+		"unless-domain": [
+			"*baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?cir-smart\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*cir-smart.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?crs\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*crs.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?goutong\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*goutong.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?lxbjs\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"load-type": [
+			"third-party"
+		],
+		"unless-domain": [
+			"*lxbjs.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?cpu\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*cpu.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^baidu\\.com#\\?#\\.rec-item:-abp-has\\(%3E\\.vbox%3Ediv%3E\\.appad-relate-rectpl\\)",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?.*baidu\\.com#\\?#\\.rec-item:-abp-has\\(%3E\\.vbox%3Ediv%3E\\.appad-relate-rectpl\\)",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?map\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"if-domain": [
+			"*laosiji.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?fcm\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*fcm.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?imgstat\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*imgstat.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?log\\.music\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*log.music.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?nsclick\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"unless-domain": [
+			"*nsclick.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?hm\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"load-type": [
+			"third-party"
+		],
+		"unless-domain": [
+			"*hm.baidu.com"
+		]
+	},
+	"action": {
+		"type": "block"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?.*/adpic/",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"if-domain": [
+			"*baike.baidu.com",
+			"*czsrc.com",
+			"*nieyou.com",
+			"*ontheup.com.tw",
+			"*zform.net"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?bdimg\\.com/advert/js/advert\\.js",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"if-domain": [
+			"*music.baidu.com"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?captcha\\.su\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/]+\\.)?cb\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"raw"
+		],
+		"if-domain": [
+			"*baomihua.com",
+			"*v.baidu.com"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?cbjs\\.baidu\\.com/js/m\\.js",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"if-domain": [
+			"*fxpan.com",
+			"*iyingdi.com",
+			"*pic.tiexue.net",
+			"*www.pctowap.com"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?cbjs\\.baidu\\.com/js/o\\.js",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"if-domain": [
+			"*jkpan.com"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?eiv\\.baidu\\.com/hmt/icon/21\\.gif",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/]+\\.)?pos\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"script"
+		],
+		"if-domain": [
+			"*fxpan.com",
+			"*jkpan.com",
+			"*www.pctowap.com"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?pos\\.baidu\\.com[^-_.%a-z0-9].*\\?di=u2164214&",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"if-domain": [
+			"*codejie.net"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?libs\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"if-domain": [
+			"*23wxx.com",
+			"*jianlaixiaoshuo.com",
+			"*m.23us.so",
+			"*m.23zw.me",
+			"*m.77nt.com",
+			"*m.80txt.com",
+			"*m.bichi.me",
+			"*m.biquge.cm",
+			"*m.biquge.info",
+			"*m.biqugecom.com",
+			"*m.biqukan.com",
+			"*m.bxwx9.org",
+			"*m.shuquge.com",
+			"*m.wenxuem.com"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?baidu\\.com/share/count\\?",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^https?://([^/]+\\.)?share\\.baidu\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"style-sheet",
+			"script"
+		],
+		"if-domain": [
+			"*k73.com"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?baidu\\.com/h\\.js",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"if-domain": [
+			"*19lou.com",
+			"*baomihua.com",
+			"*ihome99.com"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?baidu\\.com/hm\\.js",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"if-domain": [
+			"*dwz.cn"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?baidu\\.com/location/ip\\?",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"if-domain": [
+			"*dominos.com.cn"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?bdstatic\\.com/\\?\\?.*,.*,.*,",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?bdstatic\\.com/static/common/widget/ui/admanager/",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?bdstatic\\.com([^-_.%a-z0-9].*)?$",
+		"url-filter-is-case-sensitive": true,
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		],
+		"if-domain": [
+			"*rjno1.com"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?bdstatic\\.com/po/\\?\\?.*,.*,.*,",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+},
+{
+	"trigger": {
+		"url-filter": "^[^:]+:(//)?([^/]+\\.)?bdstatic\\.com[^-_.%a-z0-9].*/share_",
+		"resource-type": [
+			"image",
+			"style-sheet",
+			"script",
+			"font",
+			"media",
+			"raw",
+			"document"
+		]
+	},
+	"action": {
+		"type": "ignore-previous-rules"
+	}
+}
+]

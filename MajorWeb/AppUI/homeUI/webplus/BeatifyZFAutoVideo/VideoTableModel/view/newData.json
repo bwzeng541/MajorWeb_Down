@@ -1,0 +1,50 @@
+{
+    "list": [{
+             "video_url": "http://aldirect.hls.huya.com/backsrc/94525224-2460685313-10568562945082523648-2789274524-10057-A-0-1_1200.m3u8",
+             "video_width": "360",
+             "video_height": "202",
+             "title":"周星驰",
+             "uuid":"20190912154133",
+             "thumbnail_url": "https://pyqapp.oss-cn-hangzhou.aliyuncs.com/home_p.jpg"
+             },
+    {
+        "video_url": "http://aldirect.hls.huya.com/backsrc/94525224-2460685722-10568564701724147712-2789253838-10057-A-0-1_1200.m3u8",
+        "video_width": "360",
+        "video_height": "202",
+        "title":"成龙",
+        "uuid":"20190912154134",
+        "thumbnail_url": "https://pyqapp.oss-cn-hangzhou.aliyuncs.com/home_p.jpg"
+    },{
+        "video_url": "http://aldirect.hls.huya.com/backsrc/94525224-2460685313-10568562945082523648-2789274524-10057-A-0-1_1200.m3u8",
+        "video_width": "360",
+        "video_height": "202",
+        "title":"周星驰",
+        "uuid":"20190912154133",
+        "thumbnail_url": "https://pyqapp.oss-cn-hangzhou.aliyuncs.com/home_p.jpg"
+    },
+    {
+        "video_url": "http://aldirect.hls.huya.com/backsrc/94525224-2460685722-10568564701724147712-2789253838-10057-A-0-1_1200.m3u8",
+        "video_width": "360",
+        "video_height": "202",
+        "title":"成龙",
+        "uuid":"20190912154134",
+        "thumbnail_url": "https://pyqapp.oss-cn-hangzhou.aliyuncs.com/home_p.jpg"
+    },
+    {
+        "video_url": "http://aldirect.hls.huya.com/backsrc/94525224-2460685313-10568562945082523648-2789274524-10057-A-0-1_1200.m3u8",
+        "video_width": "360",
+        "video_height": "202",
+        "title":"周星驰",
+        "uuid":"20190912154133",
+        "thumbnail_url": "https://pyqapp.oss-cn-hangzhou.aliyuncs.com/home_p.jpg"
+    },
+    {
+        "video_url": "http://aldirect.hls.huya.com/backsrc/94525224-2460685722-10568564701724147712-2789253838-10057-A-0-1_1200.m3u8",
+        "video_width": "360",
+        "video_height": "202",
+        "title":"成龙",
+        "uuid":"20190912154134",
+        "thumbnail_url": "https://pyqapp.oss-cn-hangzhou.aliyuncs.com/home_p.jpg"
+    }
+    ]
+}

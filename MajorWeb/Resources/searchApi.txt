@@ -1,0 +1,48 @@
+[
+
+
+{
+"type": "get",
+"url": "http://t.dtjos.com/search/"
+},
+
+{
+"type": "get",
+"url": "https://www.9zgg.com/vod-search-wd-"
+},
+
+{
+"type": "get",
+"url": "https://m.kankanwu.com/vod-search-wd-"
+},
+
+{
+"type": "get",
+"url": "https://www.dybee.tv/?post_type=post&s="
+},
+
+{
+"type": "get",
+"url": "https://www.doukanzy.com/vod/search/-------------.html?wd="
+},
+{
+"type": "get",
+"url": "http://www.97kpb.com/search.php?searchword="
+},
+{
+"type": "get",
+"url": "https://www.4kdy.net/index.php/search/index?wd="
+},
+{
+"type": "get",
+"url": "https://www.rmys8.com/vodsearch/-------------/?wd="
+},
+{
+"type": "get",
+"url": "http://www.novipnoad.com/?s="
+},
+{
+"type": "get",
+"url": "https://cn.gimy.tv/search/?wd="
+}
+]

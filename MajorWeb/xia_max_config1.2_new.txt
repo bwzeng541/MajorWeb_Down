@@ -1,0 +1,162 @@
+{
+	"gamelist": "0",
+	"appVersion": "1.6",
+	"appInitUrl": "https://softhome.oss-cn-hangzhou.aliyuncs.com/max/im/down.html",
+	"buDAdappKey": "5000546",
+	"buDVideoID": "900546826",
+	"isUrlSchemeNil": "0",
+	"gdtUpdateNativeTime": "50",
+	"gdtClickOvertime": "20",
+	"is_Gdt_Apl": "0",
+	"gdtDelayDisplayTime": "20",
+	"everyGDTDayTime": "1",
+	"changeAdvertIdTime": "40",
+	"isExcApla": "0",  
+	"isParallelClick": "0",  
+	"initDeviceIDCount": "0",
+	"deviceRetention": "0",
+	"isDelGdtCreateDir": "1",  
+	"gdtWebfilterArray": ["itms-appss", "itunes.apple.com", "weixin://dl/business/?ticket=","ctrip://wireless/InlandHotel","http://m.wgewj.cn","https://m.hnhgw.cn","http://mohe.vdfgfsds.com","http://m.cudaojia.com","http://ji.8881919.cc"],
+	"msgapp1": "postMsgFromApp",
+	"msgapp2": "postMsg2AFromApp",
+	"msgapp3": "HuanCunCtrl",
+	"msgapp3Notifi": "ClickBack",
+	"msgappOverall": "PostWtNotifi",
+	"gdtUserKaiKaiPinInfo": [{  
+		"appkey": "1106563764",
+		"pkgname": "com.iperfectapp.duifangzi",
+		"placementId": "9010853197624423",
+		"_appn": "¶Ñ·¿×Ó",
+		"_app_version_code": "1.0"
+
+	}
+	],
+
+	"msgappf24": {
+		"param1": "AloneStateEngine",
+		"param2": "getInstance",
+		"param3": "getStateNewWjRootPath:"
+	},
+	"msgappf23": {
+		"param1": "AloneStateEngine",
+		"param2": "getInstance",
+		"param3": "isCanSetState:"
+	},
+	"msgappf22": {
+		"param1": "M3u8ArEngine",
+		"param2": "getInstance",
+		"param3": "delNewStateNode:"
+	},
+	"msgappf21": {
+		"param1": "M3u8ArEngine",
+		"param2": "getInstance",
+		"param3": "isCanSetState:"
+	},
+	"msgappf20": {
+		"param1": "M3u8ArEngine",
+		"param2": "getInstance",
+		"param3": "getUUIDStateString:"
+	},
+	"msgappf19": {
+		"param1": "M3u8ArEngine",
+		"param2": "getInstance",
+		"param3": "getUUIDNotChangeStateString:"
+	},
+	"msgappf18": {
+		"param1": "GuanliManager1",
+		"param2": "getInstance",
+		"param3": "fixbugSetUUIDNIL"
+	},
+	"msgappf17": {
+		"param1": "GuanliManager1",
+		"param2": "getInstance",
+		"param3": "startZNode:"
+	},
+	"msgappf16": {
+		"param1": "GuanliManager1",
+		"param2": "getInstance",
+		"param3": "isNodeInArray:"
+	},
+	"msgappf15": {
+		"param1": "GuanliManager1",
+		"param2": "getInstance",
+		"param3": "deletZNodeUUID:"
+	},
+	"msgappf14": {
+		"param1": "GuanliManager1",
+		"param2": "getInstance",
+		"param3": "getNodeArray"
+	},
+	"msgappf13": {
+		"param1": "GuanliManager1",
+		"param2": "getInstance",
+		"param3": "getNodeKeyArray"
+	},
+	"msgappf12": {
+		"param1": "GuanliManager1",
+		"param2": "getInstance",
+		"param3": "isZNodeInQueque:"
+	},
+	"msgappf11": {
+		"param1": "AppStateInfoManager",
+		"param2": "getInstance",
+		"param3": "delStateFromUser:"
+	},
+	"msgappf10": {
+		"param1": "AppStateInfoManager",
+		"param2": "getInstance",
+		"param3": "getAllStateInfo"
+	},
+	"msgappf9": {
+		"param1": "AppStateInfoManager",
+		"param2": "getInstance",
+		"param3": "clearStateFromUser:"
+	},
+	"msgappf8": {
+		"param1": "AppStateInfoManager",
+		"param2": "getInstance",
+		"param3": "setStateFromUser:"
+	},
+	"msgappf7": {
+		"param1": "AppStateInfoManager",
+		"param2": "getInstance",
+		"param3": "addStateFromUser:param2:coutmUUID:"
+	},
+	"msgappf6": {
+		"param1": "AppStateInfoManager",
+		"param2": "getInstance",
+		"param3": "clearAllState"
+	},
+	"msgappf5": {
+		"param1": "AppStateInfoManager",
+		"param2": "getInstance",
+		"param3": "isNodeInArray:"
+	},
+	"msgappf4": {
+		"param1": "AppStateInfoManager",
+		"param2": "getInstance",
+		"param3": "getAllStateKeyArray"
+	},
+	"msgappf3": {
+		"param1": "AppStateInfoManager",
+		"param2": "getInstance",
+		"param3": "addStateNode:param1:param2:"
+	},
+	"msgappf2": {
+		"param1": "AppStateInfoManager",
+		"param2": "getInstance",
+		"param3": "getStateFromUser:"
+	},
+	"msgappf1": {
+		"param1": "AppStateInfoManager",
+		"param2": "getInstance",
+		"param3": "autoExcte"
+	},
+	"msgappf0": {
+		"param1": "AppStateInfoManager",
+		"param2": "getInstance"
+	},
+	"safer1": "SFBrowserRemoteViewController",
+	"safer2": "willDismissServiceViewController",
+	"safer3": "_remoteViewController"
+}

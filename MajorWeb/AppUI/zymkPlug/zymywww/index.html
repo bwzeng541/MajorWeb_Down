@@ -1,0 +1,85 @@
+<!--
+ Copyright (c) 2012-2015, Pierre-Olivier Latour
+ All rights reserved.
+ 
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ * Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ * The name of Pierre-Olivier Latour may not be used to endorse
+ or promote products derived from this software without specific
+ prior written permission.
+ 
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL PIERRE-OLIVIER LATOUR BE LIABLE FOR ANY
+ DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>%title%</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/jquery.fileupload.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="js/html5shiv.min.js"></script>
+      <script type="text/javascript" src="js/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="js/jquery.jeditable.js"></script>
+    <script type="text/javascript" src="js/jquery.fileupload.js"></script>
+    <script type="text/javascript" src="js/jquery.iframe-transport.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/tmpl.min.js"></script>
+    <script type="text/javascript">
+      var _device = "%device%";
+    </script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        function addClickWebsEvent(){
+           var nn =  document.getElementsByTagName('img');
+           for(var i = 0;i<nn.length;i++){
+            var  img_1=nn[i];
+            img_1.onclick=function(){
+             window.webkit.messageHandlers.clickWebsImage.postMessage(this.src);
+            }
+           }
+        }
+    </script>
+  </head>
+  <body>
+      <div id="zymywww">
+     </div>
+
+ 
+    <script>
+    function copyText()
+    {
+        var bb = "<img id=\"manga\" src=\"http://images.lancaier.com/ManHuaKu/S/ShiZuoZhiLing/292/16165022731859.jpg\" alt=\"食戟之灵漫画292话\" ;=\"\" style=\"height: auto;max-width: 100%\">"
+        $('body').append(bb);
+    }
+   
+    </script>
+    
+
+
+    
+    <div id="zymywww_text" style="text-align:center; font-size:50px">加载中...</div>
+  </body>
+</html>

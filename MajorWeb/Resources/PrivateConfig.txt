@@ -1,0 +1,10 @@
+{
+"showName":"我的收藏",
+	"arraySort": [{
+		"headerName": "最爱的网站",
+		"array": [{
+			"name": "max下载",
+			"url": "http://www.max77.cn"
+		}]
+	}]
+}

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppVipBuyCtrl">
+            <connections>
+                <outlet property="btn1" destination="ahZ-7q-bo9" id="Ygr-nC-w3i"/>
+                <outlet property="btn2" destination="oaQ-aO-1gh" id="FOg-VA-xBi"/>
+                <outlet property="btnBack" destination="fQz-wA-da8" id="xCw-9z-lrS"/>
+                <outlet property="labelName" destination="5Pd-Wc-GBW" id="qzV-j1-oN0"/>
+                <outlet property="labelTime" destination="XxR-GN-2cg" id="8yk-lz-wpu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g79-4f-5Za">
+                    <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wcn-Co-1m7">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="343"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="new_buy_vip1.png" translatesAutoresizingMaskIntoConstraints="NO" id="gg1-DY-kbd">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="343"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="会员账号:123456780" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Pd-Wc-GBW">
+                                    <rect key="frame" x="93" y="230.5" width="228" height="27"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="27" id="jWo-So-viB"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                    <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="会员结束:2019-09-09" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XxR-GN-2cg">
+                                    <rect key="frame" x="93" y="273" width="228" height="27"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="27" id="8yd-Za-ZOp"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                    <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahZ-7q-bo9">
+                                    <rect key="frame" x="85" y="181.5" width="100" height="33"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="100" id="4e7-kn-JVw"/>
+                                        <constraint firstAttribute="height" constant="33" id="m7m-NY-rnE"/>
+                                    </constraints>
+                                    <state key="normal" image="new_buy_vip_zhuce.png"/>
+                                    <connections>
+                                        <action selector="pressReg:" destination="-1" eventType="touchUpInside" id="9dZ-TW-T05"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaQ-aO-1gh">
+                                    <rect key="frame" x="229" y="181.5" width="100" height="33"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="33" id="Vr5-HF-cac"/>
+                                        <constraint firstAttribute="width" constant="100" id="nEG-85-JcB"/>
+                                    </constraints>
+                                    <state key="normal" image="new_buy_vip_denglu.png"/>
+                                    <connections>
+                                        <action selector="pressLogin:" destination="-1" eventType="touchUpInside" id="EH9-NN-7vP"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="gg1-DY-kbd" firstAttribute="bottom" secondItem="Wcn-Co-1m7" secondAttribute="bottom" id="0dQ-SX-7rb"/>
+                                <constraint firstAttribute="width" secondItem="Wcn-Co-1m7" secondAttribute="height" multiplier="414:343" id="430-kl-8mT"/>
+                                <constraint firstItem="gg1-DY-kbd" firstAttribute="centerX" secondItem="Wcn-Co-1m7" secondAttribute="centerX" id="5Wk-0d-9L3"/>
+                                <constraint firstItem="oaQ-aO-1gh" firstAttribute="centerX" secondItem="Wcn-Co-1m7" secondAttribute="centerX" constant="72" id="LJR-SN-bAk"/>
+                                <constraint firstItem="ahZ-7q-bo9" firstAttribute="bottom" secondItem="Wcn-Co-1m7" secondAttribute="bottom" multiplier="10:16" id="Rad-Lk-J8j"/>
+                                <constraint firstItem="5Pd-Wc-GBW" firstAttribute="centerX" secondItem="Wcn-Co-1m7" secondAttribute="centerX" id="SYS-AV-OUm"/>
+                                <constraint firstItem="XxR-GN-2cg" firstAttribute="bottom" secondItem="Wcn-Co-1m7" secondAttribute="bottom" multiplier="14:16" id="VGC-ie-e9b"/>
+                                <constraint firstItem="5Pd-Wc-GBW" firstAttribute="leading" secondItem="XxR-GN-2cg" secondAttribute="leading" id="XqA-kf-MFc"/>
+                                <constraint firstItem="5Pd-Wc-GBW" firstAttribute="trailing" secondItem="XxR-GN-2cg" secondAttribute="trailing" id="c4N-4U-v6V"/>
+                                <constraint firstItem="gg1-DY-kbd" firstAttribute="top" secondItem="Wcn-Co-1m7" secondAttribute="top" id="o4y-mw-3bg"/>
+                                <constraint firstItem="5Pd-Wc-GBW" firstAttribute="bottom" secondItem="Wcn-Co-1m7" secondAttribute="bottom" multiplier="12:16" id="oIT-Iz-txV"/>
+                                <constraint firstItem="oaQ-aO-1gh" firstAttribute="centerY" secondItem="ahZ-7q-bo9" secondAttribute="centerY" id="xYu-b3-1Dr"/>
+                                <constraint firstItem="ahZ-7q-bo9" firstAttribute="centerX" secondItem="Wcn-Co-1m7" secondAttribute="centerX" constant="-72" id="zR0-oy-lqk"/>
+                                <constraint firstItem="gg1-DY-kbd" firstAttribute="leading" secondItem="Wcn-Co-1m7" secondAttribute="leading" id="zVp-Mc-uoN"/>
+                            </constraints>
+                        </view>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="new_buy_vip2.png" translatesAutoresizingMaskIntoConstraints="NO" id="DE0-PQ-5ki">
+                            <rect key="frame" x="0.0" y="460" width="414" height="392"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="DE0-PQ-5ki" secondAttribute="height" multiplier="414:392" id="0H5-TC-Of8"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Wcn-Co-1m7" firstAttribute="leading" secondItem="g79-4f-5Za" secondAttribute="leading" id="5me-Cs-xLL"/>
+                        <constraint firstItem="DE0-PQ-5ki" firstAttribute="leading" secondItem="g79-4f-5Za" secondAttribute="leading" id="Ap5-It-I7e"/>
+                        <constraint firstItem="DE0-PQ-5ki" firstAttribute="leading" secondItem="Wcn-Co-1m7" secondAttribute="leading" id="G4g-eq-Oti"/>
+                        <constraint firstAttribute="trailing" secondItem="DE0-PQ-5ki" secondAttribute="trailing" id="HSK-1e-koT"/>
+                        <constraint firstItem="Wcn-Co-1m7" firstAttribute="top" secondItem="g79-4f-5Za" secondAttribute="top" id="J0V-ha-aOM"/>
+                        <constraint firstItem="DE0-PQ-5ki" firstAttribute="leading" secondItem="g79-4f-5Za" secondAttribute="leading" id="KQe-Kq-Cin"/>
+                        <constraint firstItem="DE0-PQ-5ki" firstAttribute="trailing" secondItem="g79-4f-5Za" secondAttribute="trailing" id="Lt7-nM-wjD"/>
+                        <constraint firstItem="Wcn-Co-1m7" firstAttribute="trailing" secondItem="g79-4f-5Za" secondAttribute="trailing" id="N04-ZW-qqZ"/>
+                        <constraint firstItem="DE0-PQ-5ki" firstAttribute="leading" secondItem="g79-4f-5Za" secondAttribute="leading" id="zF5-KW-QaU"/>
+                        <constraint firstItem="DE0-PQ-5ki" firstAttribute="bottom" secondItem="g79-4f-5Za" secondAttribute="bottom" id="zyq-pU-ziD"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQz-wA-da8">
+                    <rect key="frame" x="10" y="44" width="22" height="39"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                    <inset key="contentEdgeInsets" minX="1" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="X">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="pressBack:" destination="-1" eventType="touchUpInside" id="WXw-K4-XHk"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="g79-4f-5Za" secondAttribute="trailing" id="M8w-ML-Hpm"/>
+                <constraint firstItem="g79-4f-5Za" firstAttribute="top" secondItem="mBV-9R-wLH" secondAttribute="top" id="YSM-hT-t8a"/>
+                <constraint firstItem="fQz-wA-da8" firstAttribute="leading" secondItem="mBV-9R-wLH" secondAttribute="leading" constant="10" id="ZQU-9X-j8w"/>
+                <constraint firstAttribute="bottom" secondItem="g79-4f-5Za" secondAttribute="bottom" id="inw-cb-yf4"/>
+                <constraint firstItem="g79-4f-5Za" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vjC-kf-HMi"/>
+                <constraint firstItem="fQz-wA-da8" firstAttribute="top" secondItem="mBV-9R-wLH" secondAttribute="top" id="wwc-if-hpa"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="mBV-9R-wLH"/>
+            <point key="canvasLocation" x="137.68115942028987" y="97.767857142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="new_buy_vip1.png" width="1242" height="1029"/>
+        <image name="new_buy_vip2.png" width="1242" height="1176"/>
+        <image name="new_buy_vip_denglu.png" width="434" height="142"/>
+        <image name="new_buy_vip_zhuce.png" width="434" height="142"/>
+    </resources>
+</document>

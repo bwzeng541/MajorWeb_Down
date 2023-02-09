@@ -1,0 +1,307 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <WebKit/WebKit.h>
+    #import "JSONKit.h"
+    #import "DebugModeCommond.h"
+    #import "SDImageCache.h"
+    #import "Toast+UIView.h"
+    #import "JSON.h"
+    #import "JSONKit.h"
+    #import "ReactiveCocoa.h"
+    #import "RegexKitLite.h"
+    #import "UIAlertView+NSCookbook.h"
+    #import "UIButton+WebCache.h"
+    #import "UIImageView+WebCache.h"
+    #import "AFNetworking.h"
+    #import "UIColor+MajorWeb.h"
+    #import "UIImage+MajorWeb.h"
+    #import "BlocksKit+UIKit.h"
+    #import "DKNightVersion.h"
+    #import "NimbusCore.h"
+    #import "UIDevice+YSCKit.h"
+    #import "GCDWebServer.h"
+    #import "GCDWebUploader.h"
+    #import "GCDWebDAVServer.h"
+    #import "DateTools.h"
+    #import <ShareSDK/ShareSDK.h>
+    #import <ShareSDKConnector/ShareSDKConnector.h>
+    #import "Masonry.h"
+    #import "ZipArchive.h"
+    #import "NSString+MKNetworkKitAdditions.h"
+    #import "FTWCache.h"
+#import <UMCommon/UMCommon.h>
+   // #import <UMAnalytics/MobClick.h>
+    #import "DownApiConfig.h"
+    #import "AppWtManager.h"
+    #import "TYAlertView.h"
+    #import "UIView+TYAlertView.h"
+    #import "GHConsole.h"
+#endif
+
+#define GGWebSearchInfoPath [NSString stringWithFormat:@"%@/%@",[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)objectAtIndex:0],@"GGWebSearchInfo"]
+#define BeatifyAssetVideoShareMsg @"点进来可以直接观看>>"
+#define DOWNAPICONFIG [DownApiConfig apiConfig]
+#define kAppVserion_isPress   @"kAppVserion_isPress"
+#define kApp_Version_old @"kApp_Version_old"
+
+#define GdtAdOperatJsKey @"sfsGtAddfOpessratJsKeydfjjj"
+#define ServeNameAccessManager @"majorweb.access.Info"
+#define UpdateServiceFlag @"UpdateServiceFlag"
+
+#define eveyrDayClickGDTAdertTimes(x) [FTWCache encryptWithKey:x]
+#define SSExpressNativeManagerShowStateNotifi @"SSExpressNativeManagerShowStateNotifi"
+
+#define  OnlineMovieIntoFullEvent @"OnlineMovieIntoFullEvent"
+#define  OnlineMovieExitSmallEvent @"OnlineMovieExitSmallEvent"
+
+#define AppSynchronizationDir [NSString stringWithFormat:@"%@/%@",[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)objectAtIndex:0],@"SynchronizationDir"]
+
+#define BeatifyWebPicsViewWebRoot [NSString stringWithFormat:@"%@/%@",[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)objectAtIndex:0],@"zymywww"]
+#define BeatifyWebPicsViewPicDirName @"pics"
+
+#define AppNotSynchronizationDir [NSString stringWithFormat:@"%@/%@",[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)objectAtIndex:0],@"NotSynchronizationDir"]
+
+#define TaitlorFarite [NSString stringWithFormat:@"%@/%@",AppSynchronizationDir,TaitlorFariteFile]
+
+
+#define AppConfigFilePath [NSString stringWithFormat:@"%@/%@",AppSynchronizationDir,AppConfigFile]
+
+#define WebHotsHistory [NSString stringWithFormat:@"%@/%@",AppSynchronizationDir,@"WebHotsHistory"]
+
+#define AdBlockEasylistDir [NSString stringWithFormat:@"%@/%@",AppSynchronizationDir,@"AdBlockEasylistDir"]
+
+#define WebSeverPort 10086
+#define ReadModeServerPort 52222
+
+#define AppScreeSizeW ([UIScreen mainScreen].bounds.size.width)
+#define AppScreeSizeH ([UIScreen mainScreen].bounds.size.height)
+
+#define MY_SCREEN_HEIGHT ((AppScreeSizeW>AppScreeSizeH)?AppScreeSizeW:AppScreeSizeH)
+#define MY_SCREEN_WIDTH ((AppScreeSizeW>AppScreeSizeH)?AppScreeSizeH:AppScreeSizeW)
+
+#define AppScaleIphoneH (MY_SCREEN_HEIGHT/568.0)
+#define AppScaleIpadH (MY_SCREEN_HEIGHT/1024.0)
+
+
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+#define UIImageFromNSBundlePngPath(name) \
+[UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:name ofType:@"png"]]
+
+#define AppTeShuPre [NSString stringWithFormat:@"%@%@%@",@"itm",@"s-serv",@"ices"]
+
+
+#ifdef DEBUG
+#define DEBUGPRINTF(format, ...) printf (format, ##__VA_ARGS__)
+#else
+#define DEBUGPRINTF(format, ...)
+#define NSLog(...) {}
+#endif
+
+#define VideoCtrlSystem [NSString stringWithFormat:@"%@%@%@%@",@"AVF",@"ullScr",@"eenVie",@"wController"]
+
+#define IosMicroMessagerUserAnent @"Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) > AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 > MicroMessenger/7.0.2 NetType/WIFI"
+
+#define IosIphoneOldUserAgent @"Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 Mobile/14F89 Safari/602.1"
+//#define IosIphoneOldUserAgent @"Mozilla/5.0 (Linux; Android 4.4.4; SAMSUNG-SM-N900A Build/tt) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36"
+#define IosIpadOldUserAgent @"Mozilla/5.0 (iPad; CPU OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27"
+#define PCUserAgent @"Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.7) Gecko/20070914 Firefox/2.0.0.7"
+#define TmpTopViewTag 10000
+#define MAXADBLOCKCONFIG @"max_adblock.json"
+
+#define HuanCun_VideoAdvert_Tag @"HuanCun_VideoAdvert_Tag"
+//升级需要修改以下版本号
+#define PINJIAURL @"xia_max_1.6_api.txt_data"
+#define Max_NEW_Config @"xia_max_new1.2_online.txt_data"
+#define Max_JSON_Config @"xia_max_json1.2_online.txt_data"
+//end
+
+#define UMFeedbackID @"5cdbd5940cafb2cec600109a"
+
+#define DefalutDomainIdentifier @"defalut.domain.html"
+#define AddDomainIdentifier @"Add.domain.html"
+
+#define Finger_mover 1
+
+//(优品)1231307419  1233153798  1234828439 1252940568  1279657489 1303332819
+#define PRODUCTID @"905883377"
+#define NotiUIInterfaceOrientationPortrait \
+//[[UIDevice currentDevice] setValue: \
+[NSNumber numberWithInteger:UIInterfaceOrientationPortrait] \
+forKey:@"orientation"]; \
+objc_msgSend([UIDevice currentDevice], @selector(setOrientation:), UIInterfaceOrientationPortrait);
+
+#define sdfusdfhhhhh         [DebugModeCommond getInstance];
+#define xxxn(x1,x2)\
+if ([DebugModeCommond getInstance].extn.count>0) { \
+NSMutableArray *arrayRet = [NSMutableArray arrayWithArray:[DebugModeCommond getInstance].extn]; \
+[arrayRet addObjectsFromArray:x2];\
+x1 = arrayRet; \
+} \
+else { \
+x1 = x2;\
+}\
+
+#define xxxb(x1,x2)\
+if ([DebugModeCommond getInstance].extb.count>0) { \
+NSMutableArray *arrayRet = [NSMutableArray arrayWithArray:[DebugModeCommond getInstance].extb]; \
+[arrayRet addObjectsFromArray:x2];\
+x1 = arrayRet; \
+} \
+else { \
+x1 = x2;\
+}\
+
+#define UIColorFromRGBA(redValue,greenValue,blueValue) [UIColor colorWithRed:redValue/255.0 green:greenValue/255.0 blue:blueValue/255.0 alpha:1.0]
+
+#define RemoveViewAndSetNil(x)  if(x)   \
+{\
+[x removeFromSuperview];\
+x = nil;\
+}
+
+#define RemoveViewAndRelease(x)  if(x)   \
+{\
+[x removeFromSuperview];\
+[x release];\
+x = nil;\
+}
+
+#define DoNotKMPLayerCanShareVideo 0
+#define AsciiToString(x) [NSString stringWithCString:x encoding:NSUTF8StringEncoding]
+
+#define WebJsNodeListNotifi @"WebJsNodeListNotifi"
+#define sendWebJsNodeMessageInfo @"sendWebJsNodeMessageInfo"
+#define sendWebJsNodeLeftMessageInfo @"sendWebJsNodeLeftMessageInfo"
+#define sendWebJsNodeRightMessageInfo @"sendWebJsNodeRightMessageInfo"
+#define sendLeeVideoMessageInfo @"sendLeeVideoMessageInfo"
+#define sendVideoWebVideoMessageInfo @"sendVideoWebVideoMessageInfo"
+#define sendLeeVideoMessageInfoAndGoToPlay @"sendLeeVideoMessageInfoAndGoToPlay"
+#define sendWebJsNodeMessageInfo  @"sendWebJsNodeMessageInfo"
+
+#define UseBeatifyAppJs 1
+#define PostMoreInfoMessageInfo @"PostMoreInfo"
+#define GetInfoTimeMessageInfo @"GetInfoTime"
+#define DeviceFullMessageInfo @"DeviceFull"
+#define PostListInfoMessageInfo @"PostListInfo"
+#define PostAssetInfoMessageInfo @"PostAssetInfo"
+#define sendMessageGetPicFromPagWeb @"sendMessageGetPicFromPagWeb"
+
+#define BeatifyAppCloseNativeKey  @"20190926114850"
+
+
+
+#define UserWKWebView 1
+
+#define GetAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
+
+#define AppAESKey [[[[[[[[[[@"Un" stringByAppendingString:@"ityBd"] stringByAppendingString:@"Fr"] stringByAppendingString:@"am"] stringByAppendingString:@"ework_"] stringByAppendingString:@"Db"] stringByAppendingString:@"_FT"] stringByAppendingString:@"WC"] stringByAppendingString:@"ac"] stringByAppendingString:@"h"] stringByAppendingString:@"e"]
+//#define AppAESKey @"UnityBdFramework_Db_FTWCache"
+
+#define UIImageFromNSBundlePngPath(name) \
+[UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:name ofType:@"png"]]
+
+#define AppConfigFile @"AppConfigFile"
+#define TaitlorFariteFile @"taitlorFarite"
+#define SyncMarkWebDir @"syncMarkWebDir/"
+#define SyncMarkWebNotifi @"SyncMarkWebNotifi"
+
+#define IF_IPAD  (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IF_IPHONE  (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+
+
+#define exit11 {/*[@"AppDelegate" substringFromIndex:10];exit(0); */  }
+#define JaiBrokenJudge \
+ BOOL jailbroken = NO; \
+NSString *cydiaPath = @"/Applications/Cydia.app"; \
+NSString *aptPath = @"/private/var/lib/apt/"; \
+if ([[NSFileManager defaultManager] fileExistsAtPath:cydiaPath]) { \
+    jailbroken = YES;exit11 \
+} \
+if ([[NSFileManager defaultManager] fileExistsAtPath:aptPath]) { \
+    jailbroken = YES;exit11 \
+} \
+struct stat stat_info; \
+if (0 == stat("/Library/MobileSubstrate/MobileSubstrate.dylib", &stat_info)) { \
+    jailbroken = YES;exit11 \
+} \
+if (0 == stat("/Applications/Cydia.app", &stat_info)) { \
+    jailbroken = YES;exit11 \
+} \
+if (0 == stat("/var/lib/cydia/", &stat_info)) { \
+    jailbroken = YES;exit11 \
+} \
+if (0 == stat("/var/cache/apt", &stat_info)) { \
+    jailbroken = YES;exit11 \
+} \
+int ret; \
+Dl_info dylib_info; \
+int (*func_stat)(const char *,struct stat *) = stat; \
+if ((ret = dladdr(&func_stat, &dylib_info))) { \
+    NSLog(@"lib:%s",dylib_info.dli_fname);       \
+    if (strcmp(dylib_info.dli_fname, "/usr/lib/system/libsystem_kernel.dylib")) {  \
+        jailbroken = YES;exit11 \
+    } \
+}\
+char *env = getenv("DYLD_INSERT_LIBRARIES"); \
+if (env != NULL) { \
+    jailbroken = YES;exit11 \
+}
+
+
+
+//数据库
+#define KEY_DATENAME  @"Major_MAIN.sqlite"
+#define KEY_TABLE_REVISIT @"ReVisit"
+#define KEY_TABLE_HISRECORD @"HisRecord"
+#define KEY_TABLE_LOCAL @"Local"
+#define KEY_TABLE_NAVIGATION @"navigation"
+#define KEY_TABEL_VIDEOHISTORY @"VideoHistory"
+#define KEY_TABEL_USERMAINHOME @"UserMainHome"
+
+
+#define kNOTIFICATION_HIDEKEYBOARD @"kNOTIFICATION_HIDEKEYBOARD"
+#define kNOTIFICATION_HIDESEARCHKEY @"kNOTIFICATION_HIDESEARCHKEY"
+#define kNOTIFICATION_REMOVEADBANNER @"kNOTIFICATION_REMOVEADBANNER"
+
+#define kNOTIFICATION_SAVE_FAVWEBSITE @"kNOTIFICATION_SAVE_FAVWEBSITE"
+#define kNOTIFICATION_CANCEL_FAVWEBSITE @"kNOTIFICATION_CANCEL_FAVWEBSITE"
+#define kNOTIFICATION_ADDRESSTEXT_GETFOCUS @"kNOTIFICATION_ADDRESSTEXT_GETFOCUS"
+//#define STATUSBAR_HEIGHT [UIApplication sharedApplication].statusBarFrame.size.height
+
+
+typedef enum MajorShowAllContentType{
+    Major_Favortite_Type,
+    Major_History_Type,
+    Major_Video_Type,
+    Major_UserHomeMain_Type,
+}MajorShowAllContentType;
+
+#if DEBUG
+#define App_Use_OSS_Sycn 0
+#else
+#define App_Use_OSS_Sycn 1
+#endif
+
+#if DEBUG
+#define is_Web_Core_Debug_ 0
+#else
+#define is_Web_Core_Debug_ 0
+#endif
+
+#define LOCAHOSET_SERVICE_PORT 10080
+#define DNLHttpServerPort LOCAHOSET_SERVICE_PORT+1
+#define ThrowUpLoadHttpServerPort LOCAHOSET_SERVICE_PORT+2
+#define PhotoLiknPort LOCAHOSET_SERVICE_PORT+3

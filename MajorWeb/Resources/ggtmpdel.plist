@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DisSuspension</key>
+	<dict>
+		<key>js</key>
+		<string>!function(){&quot;use strict&quot;;var i=!1,r=Array(),a=null,d=!1,s=1;function l(){try{return window.self===window.top}catch(e){return!1}}function u(e,t){for(var n=new Array,o=0;o&lt;e.length;o++)n.push(e[o]);for(o=0;o&lt;t.length;o++)n.push(t[o]);return n}function f(){return u(document.getElementsByTagName(&quot;video&quot;),document.getElementsByTagName(&quot;audio&quot;))}window.__firefox__||(window.__firefox__={});var e=[];e.push([&quot;youjizz.com, ijizz.mobi&quot;,function(){var e=&quot;&quot;,t=document.getElementById(&quot;preview&quot;);return null!==t&amp;&amp;0&lt;(t=t.getElementsByClassName(&quot;preview_thumb&quot;)).length&amp;&amp;(e=t[0].href),e}]),e.push([&quot;beeg.com&quot;,function(){var e=document.getElementsByClassName(&quot;play-video&quot;),t=e.length;if(0&lt;t)for(--t;0&lt;=t;t--){var n=e[t].href;if(null!=n&amp;&amp;0&lt;n.length)return n=e[t].href}return null}]),e.push([&quot;hd9.in,hd9.me&quot;,function(){for(var e=document.getElementsByTagName(&quot;a&quot;),t=0;t&lt;e.length;t++){var n=e[t].href;if(11&lt;n.length&amp;&amp;&quot;.mp4&quot;==n.substr(n.length-4,4))return n}}]),e.push([&quot;bokepmi.com&quot;,function(){for(var e=document.getElementsByTagName(&quot;a&quot;),t=0;t&lt;e.length;t++){var n=e[t].href;if(0&lt;n.length&amp;&amp;(0&lt;n.indexOf(&quot;.mp4&quot;)||0&lt;n.indexOf(&quot;.3gp&quot;)))return n}}]),e.push([&quot;borwap.net&quot;,function(){for(var e=document.getElementsByTagName(&quot;a&quot;),t=0;t&lt;e.length;t++)if(&quot;nofollow&quot;==e[t].rel)return e[t].href}]),e.push([&quot;you--jizz.info,jizzjizz.com,youjizzltd.com,pornsexpages.com,mobileboner.com,porn-mobile.xxx,ludoflash.com,jasonoakley.me,asiantube.xxx,freeporn22.com,xuporn.com,freepronvideos.org,asiaxxxporn.com,flashostar.com,freexvideos.in,fraspi.com,cameltoehoes.com,pron.co,tube4jizz.com,onsexvideos.com,freeprontube.net,footjob101.com,xporntube.us,4tube.tv,youjizz-com.info,allfreevideoporn.com,beeg.co,freepornzeta.com,jizz-on.com,freeporntube.com,twnode6.com,mofoshub.com,ero-video.net&quot;,function(){var e=&quot;&quot;,t=document.getElementsByClassName(&quot;play&quot;);null!==t&amp;&amp;0&lt;t.length&amp;&amp;(e=t[0].href);return e}]);var c={};function m(e,t){var n=document.createEvent(&quot;HTMLEvents&quot;);n.initEvent(t,!1,!0),n.isTakeEvent=!0,(null!=e.originVideo?e.originVideo:e).dispatchEvent(n)}function n(e,t,n){i=e,n&amp;&amp;(d=!0),r=t&amp;&amp;0&lt;t.length?t.split(&quot; &quot;):Array(),i&amp;&amp;w(),o()}function o(){if(l())for(var e=window.frames,t=0;t&lt;e.length;t++)e[t].postMessage(&apos;{&quot;setVideoEnable&quot;:&apos;+i+&quot;}&quot;,&quot;*&quot;)}function t(){if(0!=i){o(),w();var e=document.body.children;if(1==e.length&amp;&amp;(&quot;video&quot;==e[0].tagName.toLowerCase()||&quot;audio&quot;==e[0].tagName.toLowerCase())){var t=N(e[0]);t&amp;&amp;0!=t.length||(t=window.location.href),k(t,document.title,&quot;get&quot;);var n=document.body.innerHTML;n+=&apos;&lt;div id=&quot;AlookVideoCover&quot; style=&quot;max-width: 100%;position: fixed;left: 0;right: 0;top: 0;bottom: 0; max-height: 100%;width: 100%; height: 100%;&quot;&gt;&apos;,document.body.innerHTML=n,window.setTimeout(function(){document.getElementById(&quot;AlookVideoCover&quot;).onclick=function(){k(t,document.title,&quot;play&quot;)}},50)}}}e.forEach(function(t){t[0].split(&quot;,&quot;).forEach(function(e){c[e]=t[1]})}),window.__firefox__||(window.__firefox__={}),l()?(window.__firefox__.videoStopLoading=t,window.__firefox__.setVideoClick=function(){s=0;for(var e=window.frames,t=0;t&lt;e.length;t++)e[t].postMessage(&apos;{&quot;videoClickPlay&quot;:1}&apos;,&quot;*&quot;)},window.__firefox__.videoDispatchEnd=function(){if(a)m(a,&quot;ended&quot;);else for(var e=window.frames,t=0;t&lt;e.length;t++)e[t].postMessage(&apos;{&quot;videoDispatchEnd&quot;:1}&apos;,&quot;*&quot;)},window.__firefox__.setMainFrameVideoEnable=n,window.addEventListener(&quot;message&quot;,function(e){&quot;string&quot;==typeof e.data&amp;&amp;-1!=e.data.indexOf(&quot;videoFrameReady&quot;)&amp;&amp;o()})):window.addEventListener(&quot;message&quot;,function(e){if(&quot;string&quot;==typeof e.data)if(-1!=e.data.indexOf(&quot;setVideoEnable&quot;)){var t=JSON.parse(e.data);null!=t.setVideoEnable&amp;&amp;n(t.setVideoEnable)}else-1!=e.data.indexOf(&quot;videoDispatchEnd&quot;)?a&amp;&amp;m(a,&quot;ended&quot;):-1!=e.data.indexOf(&quot;videoClickPlay&quot;)&amp;&amp;(s=0)}),document.addEventListener(&quot;DOMContentLoaded&quot;,function(){l()?(o(),w()):window.parent.postMessage(&apos;{&quot;videoFrameReady&quot;:1}&apos;,&quot;*&quot;),p()}),window.addEventListener(&quot;load&quot;,t),window.addEventListener(&quot;popstate&quot;,function(e){v(&quot;popstate&quot;),e.state&amp;&amp;(p(),w())});var g=window.history.pushState;window.history.pushState=function(e,t,n){v(&quot;pushState&quot;),g.apply(window.history,arguments),p(),w()};var h=window.history.replaceState;function p(){s=1}function v(e){webkit.messageHandlers.VideoHandler.postMessage(e)}function w(){if(0!=i){L(),document.removeEventListener(&quot;DOMNodeInserted&quot;,A,!1),document.addEventListener(&quot;DOMNodeInserted&quot;,A,!1),d||(HTMLVideoElement.prototype.play=y,HTMLVideoElement.prototype.load=E,HTMLAudioElement.prototype.play=y,HTMLAudioElement.prototype.load=E);var e=function(){var e=window.location.hostname,t=c[e];if(!t)for(var n in c)-1!==e.indexOf(n,e.length-n.length)&amp;&amp;(t=c[n]);if(t)return t()}(),t=!1,n=f();if(n)for(var o=0;o&lt;n.length;o++)V(n[o]),e&amp;&amp;0!=e.length||(e=N(n[o])),t=!0;!t||e&amp;&amp;0!=e.length||window.setTimeout(function(){var e=f();if(e)for(var t=0;t&lt;e.length&amp;&amp;!_(e[t],&quot;get&quot;);t++);},180),k(e,document.title,&quot;get&quot;)}}function y(){!this.originVideo&amp;&amp;this.parentNode&amp;&amp;function(e){var t=e.parentNode;if(t){var n=e.cloneNode(!0);n.onclick=function(e){e&amp;&amp;e.target&amp;&amp;((&quot;VIDEO&quot;==(e=e.target).nodeName||&quot;AUDIO&quot;==e.nodeName)&amp;&amp;e.play())},n.takeListened=!0,n.originVideo=e,function(e){e.removeAttribute(&quot;src&quot;);for(var t=e.getElementsByTagName(&quot;source&quot;),n=0;n&lt;t.length;n++)t[n].removeAttribute(&quot;src&quot;)}(n),V(n),t.replaceChild(n,e)}}(this);var e=window.event;if(!e||&quot;click&quot;!=e.type&amp;&amp;&quot;tap&quot;!=e.type&amp;&amp;0!=e.type.indexOf(&quot;touch&quot;)||(s=0),-1==window.location.hostname.indexOf(&quot;youku.com&quot;)||1!=s){var t=_(null!=this.originVideo?this.originVideo:this,&quot;play&quot;);if(a=this,window.setTimeout(function(){m(this,&quot;play&quot;)},100),t&amp;&amp;0&lt;r.length){for(var n=!1,o=0;o&lt;r.length;o++)if(-1!=t.src.indexOf(r[o])){n=!0;break}n&amp;&amp;m(this,&quot;ended&quot;)}}}function E(){&quot;audio&quot;==this.tagName.toLowerCase()?(s=0,_(this,&quot;play&quot;)):_(this,&quot;get&quot;)}function b(e){if(!e.isTakeEvent&amp;&amp;i){s=0;var n=e.target,o=_(null!=n.originVideo?n.originVideo:n,&quot;play&quot;);(a=n).takePlayURL=o.src,window.setTimeout(function(){if(n.pause(),o&amp;&amp;0&lt;r.length){for(var e=!1,t=0;t&lt;r.length;t++)if(-1!=o.src.indexOf(r[t])){e=!0;break}e&amp;&amp;m(n,&quot;ended&quot;)}},100)}}function x(e){e.stopImmediatePropagation()}function _(e,t){return k(N(e),function(e){var t=e.getAttribute(&quot;title&quot;);if(!t||0==t.length){var n=document.querySelector(&quot;.x-video-title&quot;);n&amp;&amp;(t=n.innerText)}t&amp;&amp;0!=t.length||(t=document.title);return t||&quot;&quot;}(e),t)}function k(e,t,n){if(!e||0==e.length)return null;var o={src:e,title:t,isMainFrame:l(),referer:location.href,autoPlay:s,msgId:n};return webkit.messageHandlers.VideoHandler.postMessage(o),o}function N(e){var t=e.src;if(t&amp;&amp;0&lt;t.length)t=e.src;else{for(var n=&quot;&quot;,o=e.getElementsByTagName(&quot;source&quot;),i=0;i&lt;o.length;++i){var r=o[i],a=r.getAttribute(&quot;src&quot;),d=r.getAttribute(&quot;type&quot;);if(a&amp;&amp;0&lt;a.length){var s=r.src;if(s&amp;&amp;0&lt;s.length){var l=e.canPlayType(d);if(&quot;probably&quot;==l){t=r.src;break}&quot;maybe&quot;==l?t=r.src:n=r.src}}}(!t||t.length&lt;=0)&amp;&amp;0&lt;n.length&amp;&amp;(t=n)}return t||&quot;&quot;}function A(e){var t,n=e.target;if(&quot;VIDEO&quot;==n.nodeName||&quot;AUDIO&quot;==n.nodeName)t=n;else if(0&lt;n.childElementCount){var o=u(n.getElementsByTagName(&quot;video&quot;),n.getElementsByTagName(&quot;audio&quot;));0&lt;o.length&amp;&amp;(t=o[0])}if(t&amp;&amp;L(),t&amp;&amp;!t.takeListened){var i=(t.contentWindow?t.contentWindow:window).HTMLVideoElement.prototype;d||i.play===y||(i.play=y,i.load=E),V(t),_(t,&quot;get&quot;)||window.setTimeout(function(){_(t,&quot;get&quot;)},180)}}function L(){var e=f();if(0!=e.length&amp;&amp;!0!==e[0].takeAddSrcChange){var t=e[0];new MutationObserver(function(e){e.forEach(function(e){&quot;src&quot;===e.attributeName&amp;&amp;_(t,&quot;get&quot;)})}).observe(t,{attributes:!0,attributesFilter:[&quot;src&quot;]}),t.takeAddSrcChange=!0}}function T(e,t,n){e.takeEventArray||(e.takeEventArray=new Array),-1==e.takeEventArray.indexOf(t)&amp;&amp;(e.addEventListener(t,n,!1),e.takeEventArray.push(t))}function V(e){d||(e.play=y,e.load=E),T(e,&quot;play&quot;,b),T(e,&quot;pause&quot;,x),e.webkitEnterFullscreen=function(e){},e.webkitEnterFullScreen=function(e){},e.webkitRequestFullScreen=function(e){},e.webkitRequestFullscreen=function(e){},e.removeAttribute(&quot;autoplay&quot;),e.setAttribute(&quot;preload&quot;,&quot;none&quot;),e.setAttribute(&quot;webkit-playsinline&quot;,&quot;&quot;),e.setAttribute(&quot;playsinline&quot;,&quot;&quot;),e.tagName&amp;&amp;&quot;audio&quot;!=e.tagName.toLowerCase()&amp;&amp;(e.controls=1)}window.history.replaceState=function(e,t,n){v(&quot;replaceState&quot;),h.apply(window.history,arguments)}}();
+</string>
+		<key>injectionTime</key>
+		<integer>0</integer>
+		<key>forMainFrameOnly</key>
+		<false/>
+		<key>message</key>
+		<array>
+			<string>VideoHandler</string>
+		</array>
+	</dict>
+	<key>Suspension</key>
+	<dict>
+		<key>js</key>
+		<string>var videoJsonText = &quot;&quot;;
+var videoUUIDBTNTag = &quot;201811281416&quot;;
+var videoBtnMaskWebUrl = &quot;videoBtnMaskWebUrl&quot;;
+var videoBtnMaskMediaUrl = &quot;videoBtnMaskMediaUrl&quot;;
+var videoBtnMaskTitle = &quot;videoBtnMaskTitle&quot;;
+var videoBtnMaskState = &quot;videoBtnMaskState&quot;;
+var videoBtnMaskMediaReferer = &quot;videoBtnMaskReferer&quot;;
+
+var delayTimer=-1;
+var videoParam;
+!function() {
+	
+    var i = !0,
+        r = Array(),
+        a = null,
+        d = !1,
+        s = 1;
+    function l() {
+        try {
+            return window.self === window.top
+        } catch (e) {
+            return !1
+        }
+    }
+    function u(e, t) {
+        for (var n = new Array, o = 0; o &lt; e.length; o++) {
+            n.push(e[o])
+        }
+        for (o = 0; o &lt; t.length; o++) {
+            n.push(t[o])
+        }
+        return n
+    }
+    function f() {
+        return u(document.getElementsByTagName(&quot;video&quot;), document.getElementsByTagName(&quot;audio&quot;))
+    }
+    window.__firefox__ || (window.__firefox__ = {});
+    var e = [];
+    e.push([&quot;youjizz.com, ijizz.mobi&quot;, function() {
+        var e = &quot;&quot;,
+            t = document.getElementById(&quot;preview&quot;);
+        return null !== t &amp;&amp; 0 &lt; (t = t.getElementsByClassName(&quot;preview_thumb&quot;)).length &amp;&amp; (e = t[0].href), e
+    }]), e.push([&quot;beeg.com&quot;, function() {
+        var e = document.getElementsByClassName(&quot;play-video&quot;),
+            t = e.length;
+        if (0 &lt; t) {
+            for (--t; 0 &lt;= t; t--) {
+                var n = e[t].href;
+                if (null != n &amp;&amp; 0 &lt; n.length) {
+                    return n = e[t].href
+                }
+            }
+        }
+        return null
+    }]), e.push([&quot;hd9.in,hd9.me&quot;, function() {
+        for (var e = document.getElementsByTagName(&quot;a&quot;), t = 0; t &lt; e.length; t++) {
+            var n = e[t].href;
+            if (11 &lt; n.length &amp;&amp; &quot;.mp4&quot; == n.substr(n.length - 4, 4)) {
+                return n
+            }
+        }
+    }]), e.push([&quot;bokepmi.com&quot;, function() {
+        for (var e = document.getElementsByTagName(&quot;a&quot;), t = 0; t &lt; e.length; t++) {
+            var n = e[t].href;
+            if (0 &lt; n.length &amp;&amp; (0 &lt; n.indexOf(&quot;.mp4&quot;) || 0 &lt; n.indexOf(&quot;.3gp&quot;))) {
+                return n
+            }
+        }
+    }]), e.push([&quot;borwap.net&quot;, function() {
+        for (var e = document.getElementsByTagName(&quot;a&quot;), t = 0; t &lt; e.length; t++) {
+            if (&quot;nofollow&quot; == e[t].rel) {
+                return e[t].href
+            }
+        }
+    }]), e.push([&quot;you--jizz.info,jizzjizz.com,youjizzltd.com,pornsexpages.com,mobileboner.com,porn-mobile.xxx,ludoflash.com,jasonoakley.me,asiantube.xxx,freeporn22.com,xuporn.com,freepronvideos.org,asiaxxxporn.com,flashostar.com,freexvideos.in,fraspi.com,cameltoehoes.com,pron.co,tube4jizz.com,onsexvideos.com,freeprontube.net,footjob101.com,xporntube.us,4tube.tv,youjizz-com.info,allfreevideoporn.com,beeg.co,freepornzeta.com,jizz-on.com,freeporntube.com,twnode6.com,mofoshub.com,ero-video.net&quot;, function() {
+        var e = &quot;&quot;,
+            t = document.getElementsByClassName(&quot;play&quot;);
+        null !== t &amp;&amp; 0 &lt; t.length &amp;&amp; (e = t[0].href);
+        return e
+    }]);
+    var c = {};
+    function m(e, t) {
+        var n = document.createEvent(&quot;HTMLEvents&quot;);
+        n.initEvent(t, !1, !0), n.isTakeEvent = !0, (null != e.originVideo ? e.originVideo : e).dispatchEvent(n)
+    }
+    function n(e, t, n) {
+        i = e, n &amp;&amp; (d = !0), r = t &amp;&amp; 0 &lt; t.length ? t.split(&quot; &quot;) : Array(), i &amp;&amp; w(), o()
+    }
+    function newo(e){
+    	 if (l()) {
+            for (var e = window.frames, t = 0; t &lt; e.length; t++) {
+                e[t].postMessage(e, &quot;*&quot;)
+            }
+        }
+    }
+    function o() {
+        if (l()) {
+            for (var e = window.frames, t = 0; t &lt; e.length; t++) {
+                e[t].postMessage(&apos;{&quot;setVideoEnable&quot;:&apos; + i + &quot;}&quot;, &quot;*&quot;)
+            }
+        }
+    }
+    function t() {
+        if (0 != i) {
+            o(), w();
+            var e = document.body.children;
+            if (1 == e.length &amp;&amp; (&quot;video&quot; == e[0].tagName.toLowerCase() || &quot;audio&quot; == e[0].tagName.toLowerCase())) {
+                var t = N(e[0]);
+                t &amp;&amp; 0 != t.length || (t = window.location.href), k(t, document.title, &quot;get&quot;);
+                var n = document.body.innerHTML;
+                n += &apos;&lt;div id=&quot;AlookVideoCover&quot; style=&quot;max-width: 100%;position: fixed;left: 0;right: 0;top: 0;bottom: 0; max-height: 100%;width: 100%; height: 100%;&quot;&gt;&apos;, document.body.innerHTML = n, window.setTimeout(function() {
+                    document.getElementById(&quot;AlookVideoCover&quot;).onclick = function() {
+                        k(t, document.title, &quot;play&quot;)
+                    }
+                }, 50)
+            }
+        }
+    }
+    e.forEach(function(t) {
+        t[0].split(&quot;,&quot;).forEach(function(e) {
+            c[e] = t[1]
+        })
+    }), window.__firefox__ || (window.__firefox__ = {}), l() ? (window.__firefox__.videoStopLoading = t, window.__firefox__.setVideoClick = function() {
+        s = 0;
+        for (var e = window.frames, t = 0; t &lt; e.length; t++) {
+            e[t].postMessage(&apos;{&quot;videoClickPlay&quot;:1}&apos;, &quot;*&quot;)
+        }
+    }, window.__firefox__.videoDispatchEnd = function() {
+        if (a) {
+            m(a, &quot;ended&quot;)
+        } else {
+            for (var e = window.frames, t = 0; t &lt; e.length; t++) {
+                e[t].postMessage(&apos;{&quot;videoDispatchEnd&quot;:1}&apos;, &quot;*&quot;)
+            }
+        }
+    }, window.__firefox__.setMainFrameVideoEnable = n, window.addEventListener(&quot;message&quot;, function(e) {
+        if(&quot;string&quot; == typeof e.data) { if(-1 != e.data.indexOf(&quot;videoFrameReady&quot;) &amp;&amp; o());}
+        else if(&quot;object&quot; == typeof e.data){newo(e.data)};
+    })) : window.addEventListener(&quot;message&quot;, function(e) {
+        if (&quot;string&quot; == typeof e.data) {
+            if (-1 != e.data.indexOf(&quot;setVideoEnable&quot;)) {
+                var t = JSON.parse(e.data);
+                null != t.setVideoEnable &amp;&amp; n(t.setVideoEnable)
+            } else {
+                -1 != e.data.indexOf(&quot;videoDispatchEnd&quot;) ? a &amp;&amp; m(a, &quot;ended&quot;) : -1 != e.data.indexOf(&quot;videoClickPlay&quot;) &amp;&amp; (s = 0)
+            }
+        }
+        else if(&quot;object&quot; == typeof e.data){newo(e.data)};
+    }), document.addEventListener(&quot;DOMContentLoaded&quot;, function() {
+        l() ? (o(), w()) : window.parent.postMessage(&apos;{&quot;videoFrameReady&quot;:1}&apos;, &quot;*&quot;), p()
+    }), window.addEventListener(&quot;load&quot;, t), window.addEventListener(&quot;popstate&quot;, function(e) {
+        v(&quot;popstate&quot;), e.state &amp;&amp; (p(), w())
+    });
+    var g = window.history.pushState;
+    window.history.pushState = function(e, t, n) {
+        v(&quot;pushState&quot;), g.apply(window.history, arguments), p(), w()
+    };
+    var h = window.history.replaceState;
+    function p() {
+        s = 1
+    }
+    function v(e) {
+        webkit.messageHandlers.VideoHandler.postMessage(e)
+    }
+    function w() {
+        if (0 != i) {
+            L(), document.removeEventListener(&quot;DOMNodeInserted&quot;, A, !1), document.addEventListener(&quot;DOMNodeInserted&quot;, A, !1), d || (HTMLVideoElement.prototype.play = y, HTMLVideoElement.prototype.load = E, HTMLAudioElement.prototype.play = y, HTMLAudioElement.prototype.load = E);
+            var e = function() {
+                    var e = window.location.hostname,
+                        t = c[e];
+                    if (!t) {
+                        for (var n in c) {
+                            -1 !== e.indexOf(n, e.length - n.length) &amp;&amp; (t = c[n])
+                        }
+                    }
+                    if (t) {
+                        return t()
+                    }
+                }(),
+                t = !1,
+                n = f();
+            if (n) {
+                for (var o = 0; o &lt; n.length; o++) {
+                    N(n[o])
+                }
+            }
+            if (n) {
+                for (var o = 0; o &lt; n.length; o++) {
+                    V(n[o]), e &amp;&amp; 0 != e.length || (e = N(n[o])), t = !0
+                }
+            }
+            !t || e &amp;&amp; 0 != e.length || window.setTimeout(function() {
+                var e = f();
+                if (e) {
+                    for (var t = 0; t &lt; e.length &amp;&amp; !_(e[t], &quot;get&quot;); t++) {}
+                }
+            }, 180), k(e, document.title, &quot;get&quot;)
+        }
+    }
+    function y() {
+        !this.originVideo &amp;&amp; this.parentNode &amp;&amp; function(e) {
+            var t = e.parentNode;
+            if (t) {
+                var n = e.cloneNode(!0);
+                n.onclick = function(e) {
+                    e &amp;&amp; e.target &amp;&amp; ((&quot;VIDEO&quot; == (e = e.target).nodeName || &quot;AUDIO&quot; == e.nodeName) &amp;&amp; e.play())
+                }, n.takeListened = !0, n.originVideo = e, function(e) {
+                    e.removeAttribute(&quot;src&quot;);
+                    for (var t = e.getElementsByTagName(&quot;source&quot;), n = 0; n &lt; t.length; n++) {
+                        t[n].removeAttribute(&quot;src&quot;)
+                    }
+                }(n), V(n), t.replaceChild(n, e)
+            }
+        }(this);
+        var e = window.event;
+        if (!e || &quot;click&quot; != e.type &amp;&amp; &quot;tap&quot; != e.type &amp;&amp; 0 != e.type.indexOf(&quot;touch&quot;) || (s = 0), -1 == window.location.hostname.indexOf(&quot;youku.com&quot;) || 1 != s) {
+            var t = _(null != this.originVideo ? this.originVideo : this, &quot;play&quot;);
+            if (a = this, window.setTimeout(function() {
+                m(this, &quot;play&quot;)
+            }, 100), t &amp;&amp; 0 &lt; r.length) {
+                for (var n = !1, o = 0; o &lt; r.length; o++) {
+                    if (-1 != t.src.indexOf(r[o])) {
+                        n = !0;
+                        break
+                    }
+                }
+                n &amp;&amp; m(this, &quot;ended&quot;)
+            }
+        }
+    }
+    function E() {
+        &quot;audio&quot; == this.tagName.toLowerCase() ? (s = 0, _(this, &quot;play&quot;)) : _(this, &quot;get&quot;)
+    }
+    function b(e) {
+        if (!e.isTakeEvent &amp;&amp; i) {
+            s = 0;
+            var n = e.target,
+                o = _(null != n.originVideo ? n.originVideo : n, &quot;play&quot;);
+            (a = n).takePlayURL = o.src, window.setTimeout(function() {
+                if (n.pause(), o &amp;&amp; 0 &lt; r.length) {
+                    for (var e = !1, t = 0; t &lt; r.length; t++) {
+                        if (-1 != o.src.indexOf(r[t])) {
+                            e = !0;
+                            break
+                        }
+                    }
+                    e &amp;&amp; m(n, &quot;ended&quot;)
+                }
+            }, 100)
+        }
+    }
+    function x(e) {
+        e.stopImmediatePropagation()
+    }
+    function _(e, t) {
+         e.pause();
+        return k(N(e), function(e) {
+            var t = e.getAttribute(&quot;title&quot;);
+            if (!t || 0 == t.length) {
+                var n = document.querySelector(&quot;.x-video-title&quot;);
+                n &amp;&amp; (t = n.innerText)
+            }
+            t &amp;&amp; 0 != t.length || (t = document.title);
+            return t || &quot;&quot;
+        }(e), t)
+    }
+    function k(e, t, n) {
+        if (!e || 0 == e.length) {
+            return null
+        }
+        var o = {
+            src: e,
+            title: t,
+            isMainFrame: l(),
+            referer: location.href,
+            autoPlay: s,
+            msgId: n
+        };
+        var postValue = {
+                            msg: &quot;playVideo&quot;,
+                            param: o
+                        };
+        window.parent.postMessage(postValue, &quot;*&quot;);
+      //  return webkit.messageHandlers.VideoHandler.postMessage(o), o
+    }
+    function N(e) {
+        var t = e.src;
+        if (t &amp;&amp; 0 &lt; t.length) {
+            t = e.src
+        } else {
+            for (var n = &quot;&quot;, o = e.getElementsByTagName(&quot;source&quot;), i = 0; i &lt; o.length; ++i) {
+                var r = o[i],
+                    a = r.getAttribute(&quot;src&quot;),
+                    d = r.getAttribute(&quot;type&quot;);
+                if (a &amp;&amp; 0 &lt; a.length) {
+                    var s = r.src;
+                    if (s &amp;&amp; 0 &lt; s.length) {
+                        var l = e.canPlayType(d);
+                        if (&quot;probably&quot; == l) {
+                            t = r.src;
+                            break
+                        }
+                        &quot;maybe&quot; == l ? t = r.src : n = r.src
+                    }
+                }
+            }
+            (!t || t.length &lt;= 0) &amp;&amp; 0 &lt; n.length &amp;&amp; (t = n)
+        }
+        return t || &quot;&quot;
+    }
+    function addmask2(e, q, t, m) {
+        if (q == null) {
+            return
+        }
+        var videoSrc = e.src;
+        if (m &amp;&amp; m.length &gt; 2) {
+            videoSrc = m
+        }
+        var rc = q.getBoundingClientRect();
+        var body = document.body;
+        var btn = document.createElement(&quot;input&quot;);
+        btn.type = &quot;button&quot;;
+        btn.name = t;
+        btn.value = &quot;&quot;;
+        btn.setAttribute(videoBtnMaskWebUrl, document.URL);
+        btn.setAttribute(videoBtnMaskTitle, document.title);
+        btn.setAttribute(videoBtnMaskState, &quot;play&quot;);
+        btn.setAttribute(videoBtnMaskMediaUrl, videoSrc);
+        btn.style.opacity = &quot;0.0&quot;;
+        btn.style.top = rc.top + &quot;px&quot;;
+        btn.style.backgroundColor = &quot;transparent&quot;;
+        btn.style.right = rc.right + &quot;px&quot;;
+        btn.style.left = rc.left + &quot;px&quot;;
+        btn.style.bottom = rc.bottom + &quot;px&quot;;
+        btn.style.width = rc.width + &quot;px&quot;;
+        btn.style.height = rc.height + &quot;px&quot;;
+        btn.style.position = &quot;absolute&quot;;
+        btn.style.zIndex = 2147483647;
+        body.parentNode.appendChild(btn);
+        btn.addEventListener(&quot;click&quot;, function(e) {
+            var o = {
+                webUrl: e.target.getAttribute(videoBtnMaskWebUrl),
+                title: e.target.getAttribute(videoBtnMaskTitle),
+                state: e.target.getAttribute(videoBtnMaskState),
+                referer: location.href,
+                videoUrl: e.target.getAttribute(videoBtnMaskMediaUrl),
+                x: e.target.getBoundingClientRect().x,
+                y: e.target.getBoundingClientRect().y,
+                w: rc.width,
+                h: rc.height
+            };
+            return webkit.messageHandlers.ClickOverButttonVideo.postMessage(o)
+        })
+    }
+    function isSpecialDom() {
+        var r = false;
+        var obj = videoJsonText[&quot;pecial&quot;];
+        var domain = document.domain;
+        var findmask = null;
+        for (var keyValue in obj) {
+            if (domain.indexOf(keyValue) != -1) {
+                r = true;
+                break
+            }
+        }
+        return r
+    }
+    function findMaskParent() {
+        var obj = videoJsonText;
+        var domain = document.domain;
+        var findmask = null;
+        for (var keyValue in obj) {
+            if (domain.indexOf(keyValue) != -1) {
+                var o = obj[keyValue];
+                for (var i = 0; i &lt; o.length; i++) {
+                    findmask = document.getElementById(o[i]);
+                    if (findmask != null) {
+                        break
+                    }
+                }
+                break
+            }
+        }
+        return findmask
+    }
+    function addmask(e, t) {
+        var uuidBtn = encodeURIComponent(t);
+        var rc = e.getBoundingClientRect();
+        var findValue = document.getElementsByName(uuidBtn);
+        if (findValue.length != 0) {
+            return
+        }
+        if ((rc.width + rc.height &lt; 20)) {
+            if (videoJsonText.constructor != Object) {
+                return
+            }
+            var findmask = findMaskParent();
+            addmask2(e, findmask, uuidBtn, t)
+        } else {
+            addmask2(e, e, uuidBtn, t)
+        }
+    }
+    function addMaskBtn(rc,referer,videoSrc){
+    	var btn = document.getElementById(&quot;fixVideoFrameAdBtnTag&quot;);
+         if(btn==null){
+         	 btn = document.createElement(&quot;img&quot;);
+ 					 btn.style.opacity = &quot;1.0&quot;;
+           //btn.style.backgroundColor = &quot;#FFCC80&quot;;
+           btn.style.top = rc.top + &quot;px&quot;;
+           btn.style.left = rc.left + &quot;px&quot;;
+           btn.style.width = rc.width + &quot;px&quot;;
+           btn.style.height = rc.height + &quot;px&quot;;
+           btn.style.position = &quot;absolute&quot;;
+       		 btn.style.zIndex = 2147483647;
+       		 btn.src = &quot;https://softhome.oss-cn-hangzhou.aliyuncs.com/max/play.jpg&quot;;
+       		 btn.id = &quot;fixVideoFrameAdBtnTag&quot;;
+        	 document.body.parentNode.appendChild(btn);
+        	  btn.addEventListener(&quot;click&quot;, function(e) {
+            var o = {
+                webUrl: e.target.getAttribute(videoBtnMaskWebUrl),
+                title: e.target.getAttribute(videoBtnMaskTitle),
+                state: e.target.getAttribute(videoBtnMaskState),
+                referer: e.target.getAttribute(videoBtnMaskMediaReferer),
+                videoUrl: e.target.getAttribute(videoBtnMaskMediaUrl),
+                x: e.target.getBoundingClientRect().x,
+                y: e.target.getBoundingClientRect().y,
+                w: rc.width,
+                h: rc.height
+            };
+            return webkit.messageHandlers.ClickOverButttonVideo.postMessage(o)
+        })
+        }
+         btn.setAttribute(videoBtnMaskWebUrl, document.URL);
+      	 	 btn.setAttribute(videoBtnMaskTitle, document.title);
+       		 btn.setAttribute(videoBtnMaskState, &quot;play&quot;);
+       		 btn.setAttribute(videoBtnMaskMediaUrl, videoSrc);
+       		 btn.setAttribute(videoBtnMaskMediaReferer, referer);	
+    }
+    function A(e) {
+        var t,
+            n = e.target;
+        if (&quot;VIDEO&quot; == n.nodeName || &quot;AUDIO&quot; == n.nodeName) {
+            t = n
+        } else {
+            if (0 &lt; n.childElementCount) {
+                var o = u(n.getElementsByTagName(&quot;video&quot;), n.getElementsByTagName(&quot;audio&quot;));
+                0 &lt; o.length &amp;&amp; (t = o[0])
+            }
+        }
+        if (t &amp;&amp; L(), t &amp;&amp; !t.takeListened) {
+            var i = (t.contentWindow ? t.contentWindow : window).HTMLVideoElement.prototype;
+            d || i.play === y || (i.play = y, i.load = E), V(t), _(t, &quot;get&quot;) || window.setTimeout(function() {
+                _(t, &quot;get&quot;)
+            }, 180)
+        }
+    }
+    function L() {
+        var e = f();
+        if (0 != e.length &amp;&amp; !0 !== e[0].takeAddSrcChange) {
+            var t = e[0];
+            new MutationObserver(function(e) {
+                e.forEach(function(e) {
+                    &quot;src&quot; === e.attributeName &amp;&amp; _(t, &quot;get&quot;)
+                })
+            }).observe(t, {
+                attributes: !0,
+                attributesFilter: [&quot;src&quot;]
+            }), t.takeAddSrcChange = !0
+        }
+    }
+    function T(e, t, n) {
+        e.takeEventArray || (e.takeEventArray = new Array), -1 == e.takeEventArray.indexOf(t) &amp;&amp; (e.addEventListener(t, n, !1), e.takeEventArray.push(t))
+    }
+    function V(e) {
+        d || (e.play = y, e.load = E), T(e, &quot;play&quot;, b), T(e, &quot;pause&quot;, x), e.webkitEnterFullscreen = function(e) {}, e.webkitEnterFullScreen = function(e) {}, e.webkitRequestFullScreen = function(e) {}, e.webkitRequestFullscreen = function(e) {}, e.removeAttribute(&quot;autoplay&quot;), e.setAttribute(&quot;preload&quot;, &quot;none&quot;), e.setAttribute(&quot;webkit-playsinline&quot;, &quot;&quot;), e.setAttribute(&quot;playsinline&quot;, &quot;&quot;), e.tagName &amp;&amp; &quot;audio&quot; != e.tagName.toLowerCase() &amp;&amp; (e.controls = 1)
+    }
+    window.history.replaceState = function(e, t, n) {
+        v(&quot;replaceState&quot;), h.apply(window.history, arguments)
+    }
+    
+    frameCalculator = {
+    	rectSerialize: function(e) {
+                        return &quot;{{&quot; + e.left + &quot;,&quot; + e.top + &quot;},{&quot; + e.width + &quot;,&quot; + e.height + &quot;}}&quot;
+                    },
+                shouldHandleMessage: function() {
+                    var e = window.location.href &amp;&amp; -1 != window.location.href.indexOf(&quot;qqbrowservideo&quot;),
+                        t = window.location.protocol &amp;&amp; (&quot;http:&quot; == window.location.protocol || &quot;https:&quot; == window.location.protocol);
+                    return e || t
+                  },
+                
+                  msgHandler: function(e) {
+                  	 try {
+                  	 	 var t = window.frameCalculator;
+                        if (!t.shouldHandleMessage())
+                            return;
+                         var i = e.data;
+if (null != i &amp;&amp; &quot;object&quot; == typeof i) {
+                            var o = i.msg;
+                            if (null == o || void 0 === o)
+                                return;
+                            if (e.source) {
+                                switch (o) {
+                                case &quot;playVideo&quot;:
+                                        var n = e.data.param;
+                                        try {
+                                    	
+                                        for (var r = document.querySelectorAll(&quot;iframe&quot;), a = null, d = 0; d &lt; r.length; d++) {
+                                            var l = r[d];
+                                            if (l.contentWindow == e.source) {
+                                                a = l;
+                                                break
+                                            }
+                                        }
+                                        if (!a){
+                                            //return;
+                                            }
+                                        var    u = n.rect;//;
+                                        if(a){
+                                          u = a.getBoundingClientRect();
+                                        }
+                                   
+                                        var    c = n.rect;
+                                        null != c &amp;&amp; null != c || (c = {
+                                            left: 0,
+                                            top: 0,
+                                            width: 0,
+                                            height: 0
+                                        });
+                                        var m={left:0,top:0,width:0,height:0};
+                                        if(u!=undefined){
+                                        m = {
+                                            left: c.left + u.left + window.pageXOffset - document.documentElement.clientLeft,
+                                            top: c.top + u.top + window.pageYOffset - document.documentElement.clientTop,
+                                            width: u.width,
+                                            height: u.height
+                                        };
+                                     	 }
+                                        n.rect = m;
+                                        if(window.parent == window){
+                                         webkit.messageHandlers.VideoHandler.postMessage(n);
+                                         if(m.width&gt;0){
+                                         addMaskBtn(m,n.referer,n.src);	
+                                        }
+                                       }
+                                         else{
+                                         	  var postValue = {
+                           										 msg: &quot;playVideo&quot;,
+                           										 param: e.data.param
+                       												 };
+                                         	window.parent.postMessage(postValue, &quot;*&quot;);
+                                        }
+                                    } catch (e) {
+                                       // s.playVideo(n)
+                                    }
+                                   
+                                    break;
+                                case &quot;passEvent&quot;:
+                                    var h = e.data.param
+                                     
+                                }
+                                t = null
+                            }
+                        }
+                  	 	 } catch (e) {
+                  	 	}
+               },
+               startObserve: function() {
+               	if(this.shouldHandleMessage()&amp;&amp;window.addEventListener(&quot;message&quot;, this.msgHandler, !1)){
+               	     
+                }
+              }
+             };
+      window.frameCalculator = frameCalculator, frameCalculator.startObserve()
+}();
+
+
+
+   </string>
+		<key>injectionTime</key>
+		<integer>0</integer>
+		<key>forMainFrameOnly</key>
+		<false/>
+		<key>message</key>
+		<array>
+			<string>VideoHandler</string>
+			<string>ClickOverButttonVideo</string>
+		</array>
+	</dict>
+</dict>
+</plist>
